@@ -1,0 +1,51 @@
+/*
+Author name: Loic Parent
+Year: 2015
+*/
+
+
+@import "reset";
+@import "variables";
+@import "functions";
+
+@import "header";
+@import "about";
+@import "skills";
+@import "works";
+@import "contact";
+@import "formulaire";
+@import "responsive";
+
+
+
+/*     utils:     */
+
+body {
+	background-color: $mainColor;
+	font-family: $baseFont;
+}
+
+.content {
+	padding-top: 6.25em;
+}
+
+/*     mettre en place le clear:     */
+
+.clear {
+	clear: both;
+    display: block;
+}
+
+/*     footer:     */
+.footer {
+	background-color: $mainColor;
+	color: white;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}

@@ -1,0 +1,104 @@
+.aboutMe__skills {
+	margin-top: 5em;
+}
+.aboutMe__skills--elm {
+	width: 10%;
+	margin-bottom: 2em;
+	margin-right: 2.5%;
+	float: left;
+}
+
+.aboutMe__skills--item:first-child {
+	-moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+  	transform: rotate(45deg);
+  	background-color: $mainColor;
+  	width: 80px;
+  	height: 80px;
+  	margin: 0 auto;
+  	border-radius: 10px;
+}
+
+.aboutMe__skills--item:last-child {
+	visibility: hidden;
+	text-align: center;
+	margin-top: 2em;
+  color: $mainColor;
+}
+
+.aboutMe__skills--elm:hover {
+  cursor: help;
+}
+
+.aboutMe__skills--elm:hover .aboutMe__skills--item:last-child {
+	visibility: visible;
+}
+
+.aboutMe__skills--item p {
+	-moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+  	transform: rotate(-45deg);
+  	line-height: 80px;
+  	text-align: center;
+  	font-size: 2em;
+  	color: white;
+}
+
+/*  niveaux  */
+.aboutMe__skills--item.psd {
+  background: -webkit-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_psd, $mainColor $niveau_psd, $mainColor 100% ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_psd, $mainColor $niveau_psd, $mainColor 100% ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_psd, $mainColor $niveau_psd, $mainColor 100% ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_psd, $mainColor $niveau_psd, $mainColor 100% ); /* Standard syntax */
+}
+
+.aboutMe__skills--item.ai {
+  background: -webkit-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_ai, $mainColor $niveau_ai, $mainColor 100% ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_ai, $mainColor $niveau_ai, $mainColor 100% ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_ai, $mainColor $niveau_ai, $mainColor 100% ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_ai, $mainColor $niveau_ai, $mainColor 100% ); /* Standard syntax */
+}
+
+.aboutMe__skills--item.id {
+  background: -webkit-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_id, $mainColor $niveau_id, $mainColor 100% ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_id, $mainColor $niveau_id, $mainColor 100% ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_id, $mainColor $niveau_id, $mainColor 100% ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_id, $mainColor $niveau_id, $mainColor 100% ); /* Standard syntax */
+}
+
+.aboutMe__skills--item.pr {
+  background: -webkit-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_pr, $mainColor $niveau_pr, $mainColor 100% ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_pr, $mainColor $niveau_pr, $mainColor 100% ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_pr, $mainColor $niveau_pr, $mainColor 100% ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_pr, $mainColor $niveau_pr, $mainColor 100% ); /* Standard syntax */
+}
+
+.aboutMe__skills--item.html {
+  background: -webkit-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_html, $mainColor $niveau_html, $mainColor 100% ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_html, $mainColor $niveau_html, $mainColor 100% ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_html, $mainColor $niveau_html, $mainColor 100% ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_html, $mainColor $niveau_html, $mainColor 100% ); /* Standard syntax */
+}
+
+.aboutMe__skills--item.css {
+  background: -webkit-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_css, $mainColor $niveau_css, $mainColor 100% ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_css, $mainColor $niveau_css, $mainColor 100% ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_css, $mainColor $niveau_css, $mainColor 100% ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_css, $mainColor $niveau_css, $mainColor 100% ); /* Standard syntax */
+}
+
+.aboutMe__skills--item.js {
+  background: -webkit-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_js, $mainColor $niveau_js, $mainColor 100% ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_js, $mainColor $niveau_js, $mainColor 100% ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_js, $mainColor $niveau_js, $mainColor 100% ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_js, $mainColor $niveau_js, $mainColor 100% ); /* Standard syntax */
+}
+
+.aboutMe__skills--item.php {
+  background: -webkit-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_php, $mainColor $niveau_php, $mainColor 100% ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_php, $mainColor $niveau_php, $mainColor 100% ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_php, $mainColor $niveau_php, $mainColor 100% ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( -45deg, $secondColor 0%, $secondColor $niveau_php, $mainColor $niveau_php, $mainColor 100% ); /* Standard syntax */
+}

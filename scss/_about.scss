@@ -1,0 +1,73 @@
+.aboutMe {
+	margin-top: 30em;
+	padding-top: 3em;
+	background-color: #fff;
+}
+
+.title {
+	color: $mainColor;
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.aboutMe .left {
+	float: left;
+	max-width: 40%;
+}
+
+.aboutMe img {
+	border-bottom: 1px solid $mainColor;
+}
+
+.aboutMe .right {
+	float: right;
+	max-width: 60%;
+	padding-top: 8em;
+}
+
+.aboutMe__right--first:before {
+	position: absolute;
+	content:"\201C";
+	font-size: 5em;
+	font-weight: bold;
+	top: -50px;
+	left: -50px;
+}
+
+.aboutMe__right--last:after {
+	position: absolute;
+	content:"\201D";
+	font-size: 5em;
+	font-weight: bold;
+	bottom: -50px;
+	right: -50px;
+}
+
+.aboutMe__left--cv {
+	display: block;
+	margin-top: 1em;
+	background-color: $mainColor;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	height: 3em;
+	line-height: 3em;
+	text-decoration: none;
+	border-radius: 0px 10px 10px 10px;
+}
+
+.aboutMe__left--cv:hover {
+	background-color: $secondColor;
+}
+
+.aboutMe .right p {
+	font-size: 1.2em;
+	margin-bottom: 1em;
+	line-height: 1.5em;
+	position: relative;
+	margin-right: 50px;
+}
+
+.aboutMe span {
+	color: $mainColor;
+}

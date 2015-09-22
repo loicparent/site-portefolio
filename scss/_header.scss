@@ -1,0 +1,100 @@
+/*     Menu:     */
+.header {
+	background-color: $mainColor;
+	height: 6.25em;
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
+}
+
+.centerZone {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.header__logo.show {
+	display: inline-block;
+}
+
+.header__logo {
+	display: none;
+	margin-top: 1.125em;
+	width: 4em;
+	height: 4em;
+	text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+	background: url('../img/logo_lp.svg') no-repeat ;
+	background-size: 4em 4em;
+	animation: enter_rotate .3s;
+}
+
+.header__logo:hover {
+	animation: rotate .3s;
+}
+
+.mainMenu {
+	float: right;
+	height: 6.25em;
+	line-height: 6.25em;
+}
+
+.mainMenu__item {
+	display: inline-block;
+	width:	120px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	-webkit-transition: background-color .3s ease;
+	   -moz-transition: background-color .3s ease;
+	    -ms-transition: background-color .3s ease;
+	     -o-transition: background-color .3s ease;
+	        transition: background-color .3s ease;
+}
+
+.mainMenu__item.active {
+	background-color: $activeColor;
+}
+
+.mainMenu__item:hover {
+	background-color: $secondColor;
+}
+
+.mainMenu__item:focus {
+	background-color: $secondColor;
+	outline: none;
+}
+
+
+
+/*     HomeZone:     */
+.topPresentation {
+	background-color: $mainColor;
+	height: 30em; 
+	position: fixed;
+	width: 100%;
+	z-index: -1;
+}
+
+.topPresentation .centerZone img {
+	display: block;
+	float: left;
+	width: 30%;
+	margin-top: 2.5em;
+}
+
+.topPresentation h1 {
+	font-size: 4.2em;
+	color: white;
+	font-weight: bold;
+	padding-top: 2em;
+	margin-left: 50%;
+}
+
+.topPresentation h2 {
+	font-size: 2.5em;
+	color: white;
+	margin-top: 0.5em;
+	margin-left: 50%;
+}

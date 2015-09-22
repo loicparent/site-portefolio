@@ -1,0 +1,64 @@
+.works {
+	padding-top: 3em;
+	background-color: #fff;
+}
+
+.works .project {
+	display: block;
+	position: relative;
+	float: left;
+	background-color: red;
+	width: 33.33333%;
+	overflow: hidden;
+}
+
+.project__picture {
+	display: block;
+	width: 100%;
+	-webkit-transition: all 1s ease;
+	   -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	     -o-transition: all 1s ease;
+	        transition: all 1s ease;
+}
+
+.project__info {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: rgba( 0, 0, 0, 0.5 );
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	line-height: 2;
+	padding-top: 35%;
+}
+
+.project:hover .project__info {
+	display: block;
+}
+
+.project:hover .project__picture {
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.project__link {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;	
+	z-index: 500;
+}
+
+.works .project:nth-child(3n) {
+	margin-right: auto;	
+}
