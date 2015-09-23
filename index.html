@@ -13,9 +13,9 @@
 </head>
 <body>
 	<header class="header">
-		<div class="header__CenterZone centerZone">
+		<div class="centerZone">
 			<a href="#content" class="header__logo">Loïc Parent</a>
-			<nav class="mainMenu">
+			<nav class="header__menu mainMenu">
 				<a href="#content" class="mainMenu__item active">Accueil</a>
 				<a href="#aboutMe" class="mainMenu__item">&Agrave; propos</a>
 				<a href="#works" class="mainMenu__item">Mes projets</a>
@@ -26,14 +26,14 @@
 	<div id="content" class="content">
 		<section class="topPresentation section">
 			<div class="centerZone">
-				<img src="./img/logo_lp.svg" alt="">
-				<h1>Loïc Parent</h1>
-				<h2>Infographiste • Web</h2>
+				<img src="./img/logo_lp.svg" class="topPresentation__picture"  alt="">
+				<h1 class="topPresentation__title1" >Loïc Parent</h1>
+				<h2 class="topPresentation__title2" >Infographiste • Web</h2>
 			</div>
 		</section>
 		<section id="aboutMe" class="aboutMe section">
 			<div class="centerZone">
-				<h2 class="aboutMe__title title">Parlons de moi…</h2>
+				<h2 class="aboutMe__title2 title2">Parlons de moi…</h2>
 				<div class="left">
 					<img src="./img/photo.png" alt="">
 					<a href="" class="aboutMe__left--cv">télécharger mon CV</a>
@@ -83,6 +83,9 @@
 			</div>
 		</section>
 		<section id="works" class="works section">
+			<div class="centerZone">
+				<h2 class="works__title2 title2">Mes projets</h2>
+			</div>
 			<article class="project">
 				<a href="./projects/bibliotheque.html" class="project__link"></a>
 				<p class="project__info">ok</p>
@@ -132,32 +135,33 @@
 		</section>
 		<section id="contact" class="contact section">
 			<div class="centerZone">
-				<h2 class="works__title title">Me dire bonjour</h2>
+				<h2 class="works__title2 title2">Me dire bonjour</h2>
 				<form action="" class="contact__form">
 					<div class="contact__form--left">
 						<div class="contact__form--prenom">
-							<input type="text" name="prenom" id="prenom" placeholder="ex: David">
+							<input type="text" class="champ" name="prenom" id="prenom" placeholder="ex: David">
 							<label for="prenom">Prénom&nbsp;:</label>
 						</div>
 						<div class="contact__form--nom">
-							<input type="text" name="nom" id="nom" placeholder="ex: Dumont">
+							<input type="text" class="champ" name="nom" id="nom" placeholder="ex: Dumont">
 							<label for="nom">Nom&nbsp;:</label>
 						</div>
 						<div class="contact__form--email">
-							<input type="text" name="email" id="email" placeholder="ex: daviddumont@monmail.com">
+							<input type="text" class="champ" name="email" id="email" placeholder="ex: daviddumont@monmail.com">
 							<label for="email">Email&nbsp;:</label>
 						</div>
 						<div class="contact__form--phone">
-							<input type="text" name="phone" id="phone" placeholder="ex: 0567 89 65 38">
+							<input type="text" class="champ" name="phone" id="phone" placeholder="ex: 0567 89 65 38">
 							<label for="phone">Téléphone&nbsp;:</label>
 						</div>
 					</div>
 					<div class="contact__form--right">
 						<div class="contact__form--content">
-							<textarea name="message" id="message" rows="10"></textarea>
+							<textarea class="champ area" name="message" id="message"></textarea>
 							<label for="message">Message&nbsp;:</label>
 						</div>
 					</div>
+					<input class="send" type="submit" value="Envoyer">
 					<div class="clear"></div>
 				</form>
 				<a href="skype:0499261257?call" class="contact__telephone">
