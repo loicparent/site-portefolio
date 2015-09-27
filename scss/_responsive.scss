@@ -1,18 +1,368 @@
-@media screen and (max-width: 479px) {
-	
+@media screen and (max-width: 320px) {
+	.footer span {
+		display: none;
+	}
+}
+@media screen and (max-width: 553px) {
+	body .mainMenu {
+		display: none;
+		position: fixed;
+		top: 4em;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 100%;
+		background-color: $mainColor;
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition: all .3s ease;
+		animation: appear_menu .3s;
+	}
+	.contact label {
+		width: 35%;
+	}
+	.contact__form--content label {
+		width: 100%;	
+	}
+	.contact input {
+		width: 65%;
+	}
+	.mainMenu__item {
+		display: block;
+		width: 100%;
+		background-color: $mainColor;
+	}
+	.topPresentation .centerZone img {
+	    float: none;
+	    margin: auto;
+	    width: 50%;
+	}
+	body .topPresentation {
+		padding-top: 1em;
+	}
+	.topPresentation {
+		height: 15em; 
+	}
+	.topPresentation h1 {
+		text-align: center;
+	}
+	body .content {
+		padding-top: 4em;
+	}
+	.section.aboutMe {
+		margin-top: 15em;
+	}
+	body .topPresentation__title1 {
+	    font-size: 2em;
+	    font-weight: bold;
+	    margin: auto;
+	    padding-top: 2em;
+	}
+	body .topPresentation__title2 {
+	    font-size: 1.2em;
+	    margin: auto;
+	    margin-top: 0.5em;
+	}
+	.aboutMe .pictureZone {
+		width: 12em;
+		height: 12em;
+	}
+	.aboutMe img {
+		left: 5em;
+		top: -2em;
+	}
+	/* Changer les losangesZones: */
+	.aboutMe__skills--elm {
+	    float: left;
+	    margin-bottom: 2em;
+	    margin-right: 10%;
+	    width: 45%;
+	}
+	.aboutMe__skills--elm span:last-child {
+	    visibility: visible;
+	}
+	.aboutMe__skills--elm:nth-child(2n) {
+	    float: left;
+	    margin-bottom: 2em;
+	    margin-right: auto;
+	    width: 45%;
+	}
+	.contact a {
+	    float: none;
+	    width: 100%;
+	    margin-bottom: 1.5em;
+	}
+	/* Petit menu */
+	.header .hambMenu {
+		display: block;
+		float: right;
+		height: 3em;
+		width: 3em;
+		margin-right: 1em;
+		position: relative;
+		cursor: pointer;
+	}
+	.littleMenu .hambMenu span {
+		-webkit-transform: rotate( 45deg );
+		   -moz-transform: rotate( 45deg );
+		    -ms-transform: rotate( 45deg );
+		     -o-transform: rotate( 45deg );
+		        transform: rotate( 45deg );
+	}
+	.littleMenu .hambMenu span:before {
+		top: 0;
+		-webkit-transform: rotate( 90deg );
+		-moz-transform: rotate( 90deg );
+		-ms-transform: rotate( 90deg );
+		-o-transform: rotate( 90deg );
+		transform: rotate( 90deg );
+	}
+	.littleMenu .hambMenu span:after {
+		visibility: hidden;
+	}
+	.hambMenu span, .hambMenu span:before, .hambMenu span:after {
+		-webkit-transition: all .3s ease;
+		   -moz-transition: all .3s ease;
+		    -ms-transition: all .3s ease;
+		     -o-transition: all .3s ease;
+		        transition: all .3s ease;
+	    border-radius: 5px;
+	    height: 5px;
+	    width: 100%;
+	    background: white;
+	    position: absolute;
+	    display: block;
+	    content: '';
+	    top: 60%;
+	}
+	.hambMenu span:before {
+	    top: 15px;
+	}
+	.hambMenu span:after {
+	    top: -15px;
+	}
+	.littleMenu .mainMenu {
+		display: block;
+	}
+}
+@media screen and (min-width: 554px) and (max-width: 824px) {
+	.topPresentation {
+		height: 25em; 
+	}
+	.aboutMe .pictureZone {
+	width: 20em;
+	height: 20em;
+	}
+	.aboutMe img {
+		left: 6em;
+		top: -5em;
+	}
+	.aboutMe__skills--elm {
+	    float: left;
+	    margin-bottom: 3.5em;
+	    margin-right: 6.66666666666667%;
+	    width: 20%;
+	}
+	.aboutMe__skills--elm span:last-child {
+		visibility: visible;
+	}
+	.aboutMe__skills--elm:nth-child(4n) {
+	    margin-right: auto;
+	}
+}
+@media screen and (max-width: 824px) {
+	.topPresentation .centerZone img {
+	    display: block;
+	    float: none;
+	    height: 10em;
+	    margin-top: 0;
+	    margin: auto;
+	}
+	.topPresentation__title1 {
+	    font-size: 3em;
+	    padding-top: 1em;
+	    margin-left: auto;
+	}
+	.topPresentation__title2 {
+	    font-size: 2em;
+	    padding-top: 0em;
+	    margin-left: auto;
+	}
+	.contact__form--left {
+	    float: none;
+	    width: auto;
+	}
+	.contact__form--right {
+	    float: none;
+	    width: auto;
+	}
+	.contact .send {
+		margin-top: 3em;
+	}
+	.works .project {
+	    width: 100%;
+	}
+	.aboutMe .pictureZone {
+		margin: auto;
+		border-radius: 10px;
+		overflow: hidden;
+		border: 1px solid $mainColor;
+		-webkit-transform: rotate( 45deg );
+		   -moz-transform: rotate( 45deg );
+		    -ms-transform: rotate( 45deg );
+		     -o-transform: rotate( 45deg );
+		        transform: rotate( 45deg );
+		position: relative;
+		margin-bottom: 5em;
+	}
 }
 
-
-@media screen and (min-width: 480px) and (max-width: 959px) {
-
+@media screen and (min-width: 825px) and (max-width: 959px) {
+	.works .project {
+	    width: 50%;
+	}
+	.aboutMe .pictureZone {
+		margin: auto;
+		border-radius: 10px;
+		overflow: hidden;
+		width: 20em;
+		height: 20em;
+		border: 1px solid $mainColor;
+		-webkit-transform: rotate( 45deg );
+		   -moz-transform: rotate( 45deg );
+		    -ms-transform: rotate( 45deg );
+		     -o-transform: rotate( 45deg );
+		        transform: rotate( 45deg );
+		position: relative;
+		margin-bottom: 5em;
+	}
+	.aboutMe img {
+		left: 6em;
+		top: -5em;
+	}
+	.topPresentation__title1 {
+	    font-size: 3.5em;
+	    padding-top: 2.5em;
+	}
+	.topPresentation__title2 {
+	    font-size: 2em;
+	}
+	.aboutMe__skills--elm {
+	    float: left;
+	    margin-bottom: 3.5em;
+	    margin-right: 6.66666666666667%;
+	    width: 20%;
+	}
+	.aboutMe__skills--elm span:last-child {
+		visibility: visible;
+	}
+	.aboutMe__skills--elm:nth-child(4n) {
+	    margin-right: auto;
+	}
 }
 
+@media screen and (max-width: 959px) {
+	.topPresentation h1 {
+		text-align: center;
+	}
+	.content {
+		padding-top: 4em;
+	}
+	.aboutMe .left {
+		width: auto;
+		max-width: 100%;
+		float: none;
+		margin: auto;
+		padding-top: 2em;
+	}
+	.aboutMe .right {
+		width: auto;
+		max-width: 80%;
+		float: none;
+		margin: auto;
+		padding-top: 8em;
+	}
+	.aboutMe .right p {
+		margin-bottom: 1em;
+		line-height: 1.5em;
+		position: relative;
+		margin-right: auto;
+	}
+	.aboutMe img {
+		width: 100%;
+		border-bottom: none;
+		position: absolute;
+		-webkit-transform: rotate( -45deg );
+		   -moz-transform: rotate( -45deg );
+		    -ms-transform: rotate( -45deg );
+		     -o-transform: rotate( -45deg );
+		        transform: rotate( -45deg );
+	}
+	.aboutMe__left--cv {
+		border-radius: 10px;
+	}
+	.header {
+	    height: 4em;
+	}
+	.mainMenu {
+		float: right;
+		height: 4em;
+		line-height: 4em;
+	}
+	.header__logo {
+	    height: 3em;
+	    width: 3em;
+	    margin-top: .5em;
+	    background: rgba(0, 0, 0, 0) url("../img/logo_lp.svg") no-repeat scroll 0 0 / 3em 3em;
+	}
+	.section {
+		padding-left: 5%;
+		padding-right: 5%;
 
-@media screen and (min-width: 960px) and (max-width: 1280px) {
-
+	}
+	.section.works {
+		padding: 0;
+	}
+	.project__info {
+		padding-top: 3em;
+	}
+	.works .centerZone {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 }
 
-
-@media screen and (min-width: 1281px) {
-
+@media screen and (min-width: 960px) and (max-width: 1150px) {
+	.header .centerZone {
+		width: auto;
+		padding: 0;
+	}
+	.centerZone {
+		width: auto;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.project__info {
+		padding-top: 3em;
+	}
+	.works .project {
+	    width: 50%;
+	}
 }
+
+@media screen and (min-width: 960px) {
+	.content {
+		padding-top: 6.25em;
+	}
+	.quitMenu {
+		display: none;
+	}
+}
+
+/* 
+	Style de base du site
+	@media screen and (min-width: 1151px)
+
+ */

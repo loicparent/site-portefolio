@@ -18,13 +18,19 @@
   	height: 80px;
   	margin: 0 auto;
   	border-radius: 10px;
+    display: block;
 }
 
 .aboutMe__skills--item:last-child {
-	visibility: hidden;
+	display: block;
+  visibility: hidden;
 	text-align: center;
 	margin-top: 2em;
   color: $mainColor;
+}
+
+.aboutMe__skills--elm .hidden {
+  display: none;
 }
 
 .aboutMe__skills--elm:hover {
@@ -35,8 +41,9 @@
 	visibility: visible;
 }
 
-.aboutMe__skills--item p {
-	-moz-transform: rotate(-45deg);
+.aboutMe__skills--item:first-child .abbr {
+    display: block;
+	  -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
   	transform: rotate(-45deg);

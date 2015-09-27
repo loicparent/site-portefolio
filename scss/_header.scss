@@ -19,6 +19,7 @@
 .header__logo {
 	display: none;
 	margin-top: 1.125em;
+	margin-left: 10px;
 	width: 4em;
 	height: 4em;
 	text-indent: 101%;
@@ -75,16 +76,20 @@
 	position: fixed;
 	width: 100%;
 	z-index: -1;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 .topPresentation .centerZone img {
 	display: block;
 	float: left;
-	width: 30%;
+	height: 20em;
 	margin-top: 2.5em;
 }
 
-.topPresentation h1 {
+.topPresentation__title1 {
+	display: block;
 	font-size: 4.2em;
 	color: white;
 	font-weight: bold;
@@ -92,7 +97,8 @@
 	margin-left: 50%;
 }
 
-.topPresentation h2 {
+.topPresentation__title2 {
+	display: block;
 	font-size: 2.5em;
 	color: white;
 	margin-top: 0.5em;

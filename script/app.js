@@ -4,7 +4,8 @@ function isLoad(){
 	( function( $ ){
 
 		var sections = [],
-			id = false;
+			id = false,
+			headerSize = 100;
 
 		$( '.mainMenu a' ).each( function(){
 			sections.push( $( $( this ).attr( 'href' ) ) );
@@ -20,7 +21,9 @@ function isLoad(){
 					var scrolled_id = section.attr( "id" );
 				}
 			}
-			if( upScroll >= $( '#aboutMe' ).offset().top-100 ){    // si le scroll est plus grand que le dessus de la section about + 100 px (pour le header)
+			var headerHeight = $( ".header" ).height();
+			headerSize = headerHeight;
+			if( upScroll >= $( '#aboutMe' ).offset().top-headerHeight ){    // si le scroll est plus grand que le dessus de la section about + 100 px (pour le header)
 				$( '.header__logo' ).addClass( 'show' );
 			} else {
 				$( '.header__logo' ).removeClass( 'show' );
@@ -30,17 +33,35 @@ function isLoad(){
 				$( '.mainMenu a' ).removeClass( 'active' );
 				$( '.mainMenu a[href="#'+ id +'"]' ).addClass( 'active' );
 			}
-		} )
+		} );
 
 		//petit script pour le smoothMove:
 		var headerSize = $('.header').height;
 
 		$('a').click(function(){
 		    $('html, body').animate({
-		        scrollTop: $( $.attr(this, 'href') ).offset().top-100
+		        scrollTop: $( $.attr(this, 'href') ).offset().top-headerSize
 		    }, 500);
 		    return false;
 		});
+
+		//hamburger menu:
+		headerHeight = $( ".header" ).height();
+		headerSize = headerHeight;
+
+		$(".littleMenu .content").click( function(){
+			$( "body" ).toggleClass( "littleMenu" );
+		} );
+
+		$(".mainMenu a").click( function( e ){
+			var hrefLink = $( this ).attr("href");
+			$( hrefLink ).scrollTop() + ( $( window ).height() / 2 );
+			$( "body" ).toggleClass( "littleMenu" );
+		} );
+
+		$(".hambMenu").click( function(){
+			$( "body" ).toggleClass( "littleMenu" );
+		} );
 
 	} )( jQuery );
 }

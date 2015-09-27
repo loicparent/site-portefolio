@@ -7,7 +7,6 @@ Year: 2015
 @import "reset";
 @import "variables";
 @import "functions";
-
 @import "header";
 @import "about";
 @import "skills";
@@ -17,21 +16,22 @@ Year: 2015
 @import "responsive";
 
 
-
 /*     utils:     */
 
 body {
-	background-color: $mainColor;
 	font-family: $baseFont;
+}
+
+.hambMenu {
+	display: none;
 }
 
 .section {
 	padding-top: 3em;
-	padding-bottom: 3em;
 }
 
 .content {
-	padding-top: 6.25em;
+	overflow: hidden;
 }
 
 .title2 {
@@ -45,6 +45,11 @@ body {
 .clear {
 	clear: both;
     display: block;
+}
+
+.hidden {
+	position: absolute;
+	left: 5000px;
 }
 
 /*     footer:     */

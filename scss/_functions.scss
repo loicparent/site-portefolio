@@ -33,3 +33,20 @@
 		        transform: rotate(180deg);	
 	}
 }
+
+@keyframes appear_menu {
+	from{
+		-webkit-transform: translatex(-20em);
+		   -moz-transform: translatex(-20em);
+		    -ms-transform: translatex(-20em);
+		     -o-transform: translatex(-20em);
+		        transform: translatex(-20em);
+	}
+	to{
+		-webkit-transform: translatex(0em);
+		   -moz-transform: translatex(0em);
+		    -ms-transform: translatex(0em);
+		     -o-transform: translatex(0em);
+		        transform: translatex(0em);
+	}
+}

@@ -8,14 +8,18 @@
 	<link rel="icon" href="./img/favicon.png" type="image/png">
 	<title>Loïc Parent • design graphic</title>
 	<link rel="stylesheet" href="./css/main.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./script/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="./script/app.js"></script>
 </head>
 <body>
 	<header class="header">
 		<div class="centerZone">
-			<a href="#content" class="header__logo">Loïc Parent</a>
-			<nav class="header__menu mainMenu">
+			<a href="http://www.loic-parent.be" class="header__logo">Loïc Parent</a>
+			<div class="hambMenu">
+				<span></span>
+			</div>
+			<nav id="menu" class="header__menu mainMenu">
+				<h2 class="hidden">Menu de navigation</h2>
 				<a href="#content" class="mainMenu__item active">Accueil</a>
 				<a href="#aboutMe" class="mainMenu__item">&Agrave; propos</a>
 				<a href="#works" class="mainMenu__item">Mes projets</a>
@@ -24,61 +28,70 @@
 		</div>
 	</header>
 	<div id="content" class="content">
-		<section class="topPresentation section">
+		<div class="topPresentation section">
 			<div class="centerZone">
 				<img src="./img/logo_lp.svg" class="topPresentation__picture"  alt="">
-				<h1 class="topPresentation__title1" >Loïc Parent</h1>
-				<h2 class="topPresentation__title2" >Infographiste • Web</h2>
+				<h1><span class="topPresentation__title1">Loïc Parent</span><span class="topPresentation__title2">Infographiste • Web</span></h1>
 			</div>
-		</section>
+		</div>
 		<section id="aboutMe" class="aboutMe section">
 			<div class="centerZone">
 				<h2 class="aboutMe__title2 title2">Parlons de moi…</h2>
 				<div class="left">
-					<img src="./img/photo.png" alt="">
+					<div class="pictureZone">
+						<img src="./img/photo.png" alt="">
+					</div>
 					<a href="" class="aboutMe__left--cv">télécharger mon CV</a>
 				</div>
 				<div class="right">
-					<p class="aboutMe__right--first">Je m'appelle <span>Loïc Parent</span>, je suis actuellement étudiant à la Haute &Eacute;cole de la Province de Liège en option infographie orientée Web.</p>
-					<p>J'aime concevoir des choses qui permettent d'améliorer une identité graphique tout en prenant soin de le faire avec qualité, sérieux et passion.</p>
-					<p>J'ai eu l'occasion de travailler sur divers projets graphiques lier au Web, au design graphique, à la 3D ou encore à l'impression. Cela m'a permis d'aquérir des techniques nouvelles et d'élargir ma culture artistique et graphique.</p>
-					<p class="aboutMe__right--last">&Eacute;tant encore aux études, je progresse de jour en jour en essayer de m'appliquer pour faire des sites qui soit responsive, qui respectent les standards et qui ont une identités fortes tout en essayant de les garder le plus accessible possible.</p>
+					<p class="aboutMe__right--first">Je m’appelle <span>Loïc Parent</span>, je suis actuellement étudiant à la Haute &Eacute;cole de la Province de Liège en option infographie orientée Web.</p>
+					<p>J’aime concevoir des choses qui permettent d’améliorer une identité graphique tout en prenant soin de le faire avec qualité, sérieux et passion.</p>
+					<p>J’ai eu l’occasion de travailler sur divers projets graphiques lier au Web, au design graphique, à la 3D ou encore à l’impression. Cela m’a permis d’aquérir des techniques nouvelles et d’élargir ma culture artistique et graphique.</p>
+					<p class="aboutMe__right--last">&Eacute;tant encore aux études, je progresse de jour en jour en essayer de m’appliquer pour faire des sites qui soit responsive, qui respectent les standards et qui ont une identités fortes tout en essayant de les garder le plus accessible possible.</p>
 				</div>
 				<div class="clear"></div>
-				<div class="aboutMe__skills">
-					<ul class="aboutMe__skills--elm">
-						<li class="aboutMe__skills--item psd"><p>Psd</p></li>
-						<li class="aboutMe__skills--item">Photoshop</li>
-					</ul>
-					<ul class="aboutMe__skills--elm">
-						<li class="aboutMe__skills--item ai"><p>Ai</p></li>
-						<li class="aboutMe__skills--item">Illustrator</li>
-					</ul>
-					<ul class="aboutMe__skills--elm">
-						<li class="aboutMe__skills--item id"><p>Id</p></li>
-						<li class="aboutMe__skills--item">In Design</li>
-					</ul>
-					<ul class="aboutMe__skills--elm">
-						<li class="aboutMe__skills--item pr"><p>Pr</p></li>
-						<li class="aboutMe__skills--item">Première Pro</li>
-					</ul>
-					<ul class="aboutMe__skills--elm">
-						<li class="aboutMe__skills--item html"><p>5</p></li>
-						<li class="aboutMe__skills--item">HTML 5</li>
-					</ul>
-					<ul class="aboutMe__skills--elm">
-						<li class="aboutMe__skills--item css"><p>3</p></li>
-						<li class="aboutMe__skills--item">CSS 3</li>
-					</ul>
-					<ul class="aboutMe__skills--elm">
-						<li class="aboutMe__skills--item js"><p>JS</p></li>
-						<li class="aboutMe__skills--item">Javascript</li>
-					</ul>
-					<ul class="aboutMe__skills--elm">
-						<li class="aboutMe__skills--item php"><p>PHP</p></li>
-						<li class="aboutMe__skills--item">PHP</li>
-					</ul>
-				</div>
+				<ul class="aboutMe__skills">
+					<li class="aboutMe__skills--elm">
+						<span class="aboutMe__skills--item losange psd"><abbr class="abbr">Psd</abbr></span>
+						<span class="hidden">signifie</span>
+						<span class="aboutMe__skills--item">Photoshop</span>
+					</li>
+					<li class="aboutMe__skills--elm">
+						<span class="aboutMe__skills--item losange ai"><abbr class="abbr">Ai</abbr></span>
+						<span class="hidden">signifie</span>
+						<span class="aboutMe__skills--item">Illustrator</span>
+					</li>
+					<li class="aboutMe__skills--elm">
+						<span class="aboutMe__skills--item losange id"><abbr class="abbr">Id</abbr></span>
+						<span class="hidden">signifie</span>
+						<span class="aboutMe__skills--item">In Design</span>
+					</li>
+					<li class="aboutMe__skills--elm">
+						<span class="aboutMe__skills--item losange pr"><abbr class="abbr">Pr</abbr></span>
+						<span class="hidden">signifie</span>
+						<span class="aboutMe__skills--item">Première Pro</span>
+					</li>
+					<li class="aboutMe__skills--elm">
+						<span class="aboutMe__skills--item losange html"><abbr class="abbr">5</abbr></span>
+						<span class="hidden">signifie</span>
+						<span class="aboutMe__skills--item">HTML 5</span>
+					</li>
+					<li class="aboutMe__skills--elm">
+						<span class="aboutMe__skills--item losange css"><abbr class="abbr">3</abbr></span>
+						<span class="hidden">signifie</span>
+						<span class="aboutMe__skills--item">CSS 3</span>
+					</li>
+					<li class="aboutMe__skills--elm">
+						<span class="aboutMe__skills--item losange js"><abbr class="abbr">JS</abbr></span>
+						<span class="hidden">signifie</span>
+						<span class="aboutMe__skills--item">Javascript</span>
+					</li>
+					<li class="aboutMe__skills--elm">
+						<span class="aboutMe__skills--item losange php"><abbr class="abbr">PHP</abbr></span>
+						<span class="hidden">signifie</span>
+						<span class="aboutMe__skills--item">Hypertext Preprocessor</span>
+					</li>
+				</ul>
 				<div class="clear"></div>
 			</div>
 		</section>
@@ -88,47 +101,47 @@
 			</div>
 			<article class="project">
 				<a href="./projects/bibliotheque.html" class="project__link"></a>
-				<p class="project__info">ok</p>
+				<h3 class="project__info">DS Walonnie</h3>
 				<img src="./img/projet-1.png" alt="" class="project__picture">
 			</article>
 			<article class="project">
 				<a href="" class="project__link"></a>
-				<p class="project__info">ok</p>
+				<h3 class="project__info">Bibliothèque en ligne</h3>
 				<img src="./img/projet-2.png" alt="" class="project__picture">
 			</article>
 			<article class="project">
 				<a href="" class="project__link"></a>
-				<p class="project__info">ok</p>
+				<h3 class="project__info">Huile d’olive Bouvachon</h3>
 				<img src="./img/projet-3.png" alt="" class="project__picture">
 			</article>
 			<article class="project">
 				<a href="" class="project__link"></a>
-				<p class="project__info">ok</p>
+				<h3 class="project__info">Catalogue Stim-from</h3>
 				<img src="./img/projet-4.png" alt="" class="project__picture">
 			</article>
 			<article class="project">
 				<a href="" class="project__link"></a>
-				<p class="project__info">ok</p>
+				<h3 class="project__info">Affiche Retour vers le futur</h3>
 				<img src="./img/projet-1.png" alt="" class="project__picture">
 			</article>
 			<article class="project">
 				<a href="" class="project__link"></a>
-				<p class="project__info">ok</p>
+				<h3 class="project__info">Pancakes Typography</h3>
 				<img src="./img/projet-2.png" alt="" class="project__picture">
 			</article>
 			<article class="project">
 				<a href="" class="project__link"></a>
-				<p class="project__info">ok</p>
+				<h3 class="project__info">Visuel de T-shirt</h3>
 				<img src="./img/projet-3.png" alt="" class="project__picture">
 			</article>
 			<article class="project">
 				<a href="" class="project__link"></a>
-				<p class="project__info">ok</p>
+				<h3 class="project__info">Euroskills 2012</h3>
 				<img src="./img/projet-4.png" alt="" class="project__picture">
 			</article>
 			<article class="project">
 				<a href="" class="project__link"></a>
-				<p class="project__info">ok</p>
+				<h3 class="project__info">Festival Roll-Style</h3>
 				<img src="./img/projet-1.png" alt="" class="project__picture">
 			</article>
 			<div class="clear"></div>			
@@ -136,29 +149,29 @@
 		<section id="contact" class="contact section">
 			<div class="centerZone">
 				<h2 class="works__title2 title2">Me dire bonjour</h2>
-				<form action="" class="contact__form">
+				<form action="#" method="post" class="contact__form">
 					<div class="contact__form--left">
 						<div class="contact__form--prenom">
 							<input type="text" class="champ" name="prenom" id="prenom" placeholder="ex: David">
-							<label for="prenom">Prénom&nbsp;:</label>
+							<label for="prenom">Prénom</label>
 						</div>
 						<div class="contact__form--nom">
-							<input type="text" class="champ" name="nom" id="nom" placeholder="ex: Dumont">
-							<label for="nom">Nom&nbsp;:</label>
+							<input type="text" class="champ" name="nom" id="nom" placeholder="ex: Dumont" required>
+							<label for="nom">Nom</label>
 						</div>
 						<div class="contact__form--email">
-							<input type="text" class="champ" name="email" id="email" placeholder="ex: daviddumont@monmail.com">
-							<label for="email">Email&nbsp;:</label>
+							<input type="email" class="champ" name="email" id="email" placeholder="ex: daviddumont@monmail.com" required>
+							<label for="email">Email</label>
 						</div>
 						<div class="contact__form--phone">
-							<input type="text" class="champ" name="phone" id="phone" placeholder="ex: 0567 89 65 38">
-							<label for="phone">Téléphone&nbsp;:</label>
+							<input type="tel" class="champ" name="phone" id="phone" placeholder="ex: 0567 89 65 38">
+							<label for="phone">Téléphone</label>
 						</div>
 					</div>
 					<div class="contact__form--right">
 						<div class="contact__form--content">
-							<textarea class="champ area" name="message" id="message"></textarea>
-							<label for="message">Message&nbsp;:</label>
+							<textarea class="champ area" name="message" required id="message"></textarea>
+							<label for="message">Message</label>
 						</div>
 					</div>
 					<input class="send" type="submit" value="Envoyer">
@@ -168,19 +181,19 @@
 					<div class="contact__picto">
 						<img src="./img/picto_phone.svg" alt="">
 					</div>
-					<h4>0499 / 26 12 57</h4>
+					<p>0499 / 26 12 57</p>
 				</a>
-				<a href="mailto:loic1994@hotmail" class="contact__mail">
+				<a href="mailto:info@loic-parent.be" class="contact__mail">
 					<div class="contact__picto">
 						<img src="./img/picto_mail.svg" alt="">
 					</div>
-					<h4>loic1994@hotmail.com</h4>
+					<p>info@loic-parent.be</p>
 				</a>
 				<a href="https://www.facebook.com/loic.parent.31" class="contact__fb">
 					<div class="contact__picto">
 						<img src="./img/picto_facebook.svg" alt="">
 					</div>
-					<h4>Loïc Parent</h4>
+					<p>Loïc Parent</p>
 				</a>
 				<div class="clear"></div>
 			</div>
@@ -188,7 +201,7 @@
 	</div>
 	<footer class="footer">
 		<p>
-			<a href="mailto:loic1994@hotmail">Loïc Parent</a> 2015 ® • Tous drois r&eacute;serv&eacute;
+			<a href="mailto:info@loic-parent.be">Loïc Parent</a> 2015 ® <span>• Tous drois r&eacute;serv&eacute;</span>
 		</p>
 	</footer>
 </body>
