@@ -21,24 +21,12 @@
     display: block;
 }
 
-.aboutMe__skills--item:last-child {
-	display: block;
-  visibility: hidden;
-	text-align: center;
-	margin-top: 2em;
-  color: $mainColor;
-}
-
 .aboutMe__skills--elm .hidden {
   display: none;
 }
 
 .aboutMe__skills--elm:hover {
   cursor: help;
-}
-
-.aboutMe__skills--elm:hover .aboutMe__skills--item:last-child {
-	visibility: visible;
 }
 
 .aboutMe__skills--item:first-child .abbr {
@@ -51,6 +39,17 @@
   	text-align: center;
   	font-size: 2em;
   	color: white;
+}
+
+.aboutMe__skills--item:last-child {
+    margin-top: 2em;
+    display: block;
+    text-align: center;
+    visibility: hidden;
+}
+
+.aboutMe__skills--elm:hover .aboutMe__skills--item:last-child {
+    visibility: visible;
 }
 
 /*  niveaux  */

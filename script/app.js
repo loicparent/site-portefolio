@@ -38,30 +38,12 @@ function isLoad(){
 		//petit script pour le smoothMove:
 		var headerSize = $('.header').height;
 
-		$('a').click(function(){
+		$('.mainMenu a').click(function(){
 		    $('html, body').animate({
 		        scrollTop: $( $.attr(this, 'href') ).offset().top-headerSize
 		    }, 500);
 		    return false;
 		});
-
-		//hamburger menu:
-		headerHeight = $( ".header" ).height();
-		headerSize = headerHeight;
-
-		$(".littleMenu .content").click( function(){
-			$( "body" ).toggleClass( "littleMenu" );
-		} );
-
-		$(".mainMenu a").click( function( e ){
-			var hrefLink = $( this ).attr("href");
-			$( hrefLink ).scrollTop() + ( $( window ).height() / 2 );
-			$( "body" ).toggleClass( "littleMenu" );
-		} );
-
-		$(".hambMenu").click( function(){
-			$( "body" ).toggleClass( "littleMenu" );
-		} );
 
 	} )( jQuery );
 }

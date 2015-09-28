@@ -105,6 +105,32 @@ table {
     transform: translatex(0em);
   }
 }
+@keyframes openPage {
+  from {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes appear_projectInfo {
+  from {
+    top: 100%;
+    opacity: 1;
+  }
+  to {
+    top: 60%;
+    opacity: 1;
+  }
+}
 /*     Menu:     */
 .header {
   background-color: #22A7F0;
@@ -302,24 +328,12 @@ table {
   display: block;
 }
 
-.aboutMe__skills--item:last-child {
-  display: block;
-  visibility: hidden;
-  text-align: center;
-  margin-top: 2em;
-  color: #22A7F0;
-}
-
 .aboutMe__skills--elm .hidden {
   display: none;
 }
 
 .aboutMe__skills--elm:hover {
   cursor: help;
-}
-
-.aboutMe__skills--elm:hover .aboutMe__skills--item:last-child {
-  visibility: visible;
 }
 
 .aboutMe__skills--item:first-child .abbr {
@@ -332,6 +346,17 @@ table {
   text-align: center;
   font-size: 2em;
   color: white;
+}
+
+.aboutMe__skills--item:last-child {
+  margin-top: 2em;
+  display: block;
+  text-align: center;
+  visibility: hidden;
+}
+
+.aboutMe__skills--elm:hover .aboutMe__skills--item:last-child {
+  visibility: visible;
 }
 
 /*  niveaux  */
@@ -448,15 +473,20 @@ table {
 .project__info {
   display: block;
   position: absolute;
-  top: 100%;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 2;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
   font-size: 1.5em;
   background-color: rgba(34, 167, 240, 0.8);
-  padding-top: 3em;
+  padding-top: 40%;
   text-align: center;
-  opacity: 0;
   color: white;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
@@ -466,9 +496,11 @@ table {
 }
 
 .project:hover h3 {
-  top: 60%;
-  opacity: 1;
-  z-index: 2;
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 .project:hover .project__picture {
@@ -488,6 +520,9 @@ table {
   left: 0;
   right: 0;
   z-index: 500;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .works .project:nth-child(3n) {
@@ -686,12 +721,123 @@ table {
   cursor: pointer;
 }
 
+.projectTitle-1 {
+  padding-top: 5em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.projectTitle {
+  display: none;
+}
+
+.theProjet .content {
+  padding-top: 0em;
+}
+
+.infoProject .left {
+  max-width: 40%;
+  float: left;
+}
+
+.infoProject .centerZone {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.theProjet {
+  animation: openPage .3s;
+}
+
+.theProjet .content {
+  margin-bottom: 2em;
+}
+
+.infoProject .left img {
+  width: 100%;
+}
+
+.infoProject .right {
+  max-width: 50%;
+  float: right;
+}
+
+.infoProject .right p {
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.theProjet footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.description {
+  margin-top: 3em;
+}
+
+.pancakesDesc img {
+  float: left;
+  display: block;
+  width: 20%;
+}
+
+.descCenter img {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+.tshirtDesc img {
+  float: left;
+  display: block;
+  width: 33.3333%;
+}
+
+.theProjet .header__logo {
+  display: block;
+  float: left;
+}
+
+.infoProject__link {
+  display: block;
+  margin-top: 1em;
+  border: 1px solid #22A7F0;
+  color: #22A7F0;
+  width: 100%;
+  text-align: center;
+  height: 3em;
+  line-height: 3em;
+  text-decoration: none;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.infoProject__link:hover {
+  border: 1px solid #22A7F0;
+  color: white;
+  background-color: #22A7F0;
+}
+
 @media screen and (max-width: 320px) {
   .footer span {
     display: none;
   }
 }
 @media screen and (max-width: 553px) {
+  /* Page projet */
+  .pancakesDesc img {
+    width: 50%;
+  }
+
+  /* Page projet */
   body .mainMenu {
     display: none;
     position: fixed;
@@ -738,7 +884,7 @@ table {
   }
 
   .topPresentation {
-    height: 15em;
+    height: 22em;
   }
 
   .topPresentation h1 {
@@ -750,7 +896,19 @@ table {
   }
 
   .section.aboutMe {
-    margin-top: 15em;
+    margin-top: 22em;
+  }
+
+  body .aboutMe .right {
+    max-width: 100%;
+  }
+
+  .aboutMe__right--first:before {
+    display: none;
+  }
+
+  .aboutMe__right--last:after {
+    display: none;
   }
 
   body .topPresentation__title1 {
@@ -862,6 +1020,12 @@ table {
   }
 }
 @media screen and (min-width: 554px) and (max-width: 824px) {
+  /* Page projet */
+  .pancakesDesc img {
+    width: 33.33333%;
+  }
+
+  /* Page projet */
   .topPresentation {
     height: 25em;
   }
@@ -892,6 +1056,26 @@ table {
   }
 }
 @media screen and (max-width: 824px) {
+  /* Page projets */
+  .infoProject .right {
+    max-width: 100%;
+    float: none;
+    margin-top: 3em;
+  }
+
+  .infoProject .left {
+    max-width: 100%;
+    float: none;
+  }
+
+  .tshirtDesc img {
+    float: none;
+    margin: auto;
+    margin-bottom: 1em;
+    width: 80%;
+  }
+
+  /* fin page projets */
   .topPresentation .centerZone img {
     display: block;
     float: none;
@@ -1067,10 +1251,6 @@ table {
     padding: 0;
   }
 
-  .project__info {
-    padding-top: 3em;
-  }
-
   .works .centerZone {
     padding-left: 5%;
     padding-right: 5%;
@@ -1088,10 +1268,6 @@ table {
     padding-right: 5%;
   }
 
-  .project__info {
-    padding-top: 3em;
-  }
-
   .works .project {
     width: 50%;
   }
@@ -1106,10 +1282,13 @@ table {
   }
 }
 /* 
-	Style de base du site
-	@media screen and (min-width: 1151px)
-
- */
+	Style de base du site:
+*/
+@media screen and (max-width: 1151px) and (orientation: landscape) {
+  .aboutMe__skills--item:last-child {
+    visibility: visible;
+  }
+}
 /*     utils:     */
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;

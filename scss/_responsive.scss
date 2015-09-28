@@ -4,6 +4,12 @@
 	}
 }
 @media screen and (max-width: 553px) {
+	/* Page projet */
+	.pancakesDesc img {
+		width: 50%;
+	}
+
+	/* Page projet */
 	body .mainMenu {
 		display: none;
 		position: fixed;
@@ -43,7 +49,7 @@
 		padding-top: 1em;
 	}
 	.topPresentation {
-		height: 15em; 
+		height: 22em; 
 	}
 	.topPresentation h1 {
 		text-align: center;
@@ -52,7 +58,17 @@
 		padding-top: 4em;
 	}
 	.section.aboutMe {
-		margin-top: 15em;
+		margin-top: 22em;
+	}
+	body .aboutMe .right {
+	    max-width: 100%;
+	}
+	.aboutMe__right--first:before {
+		display: none;
+	}
+
+	.aboutMe__right--last:after {
+		display: none;
 	}
 	body .topPresentation__title1 {
 	    font-size: 2em;
@@ -148,6 +164,11 @@
 	}
 }
 @media screen and (min-width: 554px) and (max-width: 824px) {
+	/* Page projet */
+	.pancakesDesc img {
+		width: 33.33333%;
+	}
+	/* Page projet */
 	.topPresentation {
 		height: 25em; 
 	}
@@ -173,6 +194,23 @@
 	}
 }
 @media screen and (max-width: 824px) {
+	/* Page projets */
+	.infoProject .right {
+		max-width: 100%;
+		float: none;
+		margin-top: 3em;
+	}
+	.infoProject .left {
+		max-width: 100%;
+		float: none;
+	}
+	.tshirtDesc img {
+		float: none;
+		margin: auto;
+		margin-bottom: 1em;
+		width: 80%;
+	}
+	/* fin page projets */
 	.topPresentation .centerZone img {
 	    display: block;
 	    float: none;
@@ -325,9 +363,6 @@
 	.section.works {
 		padding: 0;
 	}
-	.project__info {
-		padding-top: 3em;
-	}
 	.works .centerZone {
 		padding-left: 5%;
 		padding-right: 5%;
@@ -344,9 +379,6 @@
 		padding-left: 5%;
 		padding-right: 5%;
 	}
-	.project__info {
-		padding-top: 3em;
-	}
 	.works .project {
 	    width: 50%;
 	}
@@ -362,7 +394,10 @@
 }
 
 /* 
-	Style de base du site
-	@media screen and (min-width: 1151px)
-
- */
+	Style de base du site:
+*/
+@media screen and (max-width: 1151px) and(orientation:landscape){
+	.aboutMe__skills--item:last-child {
+	    visibility: visible;
+	}
+}

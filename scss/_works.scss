@@ -23,15 +23,20 @@
 .project__info {
 	display: block;
 	position: absolute;
-	top: 100%;
+	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	z-index: 2;
+	-webkit-transform: translateY(100%);
+	   -moz-transform: translateY(100%);
+	    -ms-transform: translateY(100%);
+	     -o-transform: translateY(100%);
+	        transform: translateY(100%);
 	font-size: 1.5em;
 	background-color: $transparancyColor;
-	padding-top: 3em;
+	padding-top: 40%;
 	text-align: center;
-	opacity: 0;
 	color: white;
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -39,11 +44,12 @@
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-
 .project:hover h3 {
-	top: 60%;
-	opacity: 1;
-	z-index: 2;
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	-o-transform: translateY(0%);
+	transform: translateY(0%);
 }
 
 .project:hover .project__picture {
@@ -63,6 +69,9 @@
 	left: 0;
 	right: 0;	
 	z-index: 500;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 .works .project:nth-child(3n) {

@@ -1,0 +1,89 @@
+.projectTitle-1 {
+	padding-top: 5em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+.projectTitle {
+	display: none;
+}
+.theProjet .content {
+    padding-top: 0em;
+}
+.infoProject .left {
+	max-width: 40%;
+	float: left;
+}
+.infoProject .centerZone {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.theProjet {
+	animation: openPage .3s;
+}
+.theProjet .content {
+	margin-bottom: 2em;
+}
+.infoProject .left img {
+	width: 100%;
+}
+.infoProject .right {
+	max-width: 50%;
+	float: right;
+}
+.infoProject .right p {
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.theProjet footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.description {
+	margin-top: 3em;
+}
+.pancakesDesc img {
+	float: left;
+	display: block;
+	width: 20%;
+}
+.descCenter img {
+	margin: auto;
+	display: block;
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+.tshirtDesc img {
+	float: left;
+	display: block;
+	width: 33.3333%;
+}
+
+.theProjet .header__logo {
+	display: block;
+	float: left;
+}
+.infoProject__link {
+	display: block;
+	margin-top: 1em;
+	border: 1px solid $mainColor;
+	color: $mainColor;
+	width: 100%;
+	text-align: center;
+	height: 3em;
+	line-height: 3em;
+	text-decoration: none;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.infoProject__link:hover {
+	border: 1px solid $mainColor;
+	color: white;
+	background-color: $mainColor;
+}
