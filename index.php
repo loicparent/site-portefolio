@@ -1,3 +1,51 @@
+<?php 
+	if ( isset($_POST['formsent']) ) {
+		if ( !empty( $_POST['nom'] ) AND !empty( $_POST['email'] ) AND !empty( $_POST['message'] ) ) {
+
+			$nom = htmlspecialchars($_POST['nom']);
+			$mail = htmlspecialchars($_POST['email']);
+			$message = htmlspecialchars($_POST['message']);
+
+			if ( !empty( $_POST['prenom'] ) ){
+				$prenom = htmlspecialchars($_POST['prenom']);
+			} else {
+				$prenom = "pas de prénom spécifié";
+			}
+
+			if ( !empty( $_POST['phone'] ) ){
+				$tel = htmlspecialchars($_POST['phone']);
+			} else {
+				$tel = "pas de télephone spécifié";
+			}
+
+			$header = "MIME-version: 1.1\r\n";
+			$header .= 'From:"loic-parent.be"<support@loic-parent.be>'."\n";
+			$header .= 'Content-Type:text/html; charset="utf-8"'."\n"; 
+			$header .= 'Content-Transfer-Encoding: 8bit'; 
+
+			$message = '
+				<html>
+					<body>
+						<u>Message envoyé du site :</u> www.loic-parent.be<br /><br />
+						<u>Nom de l’expéditeur :</u> '.$nom.'<br />
+						<u>Prénom de l’expéditeur :</u> '.$prenom.'<br />
+						<u>Email de l’expéditeur :</u> '.$mail.'<br />
+						<u>Télephone de l’expéditeur :</u> '.$tel.'<br />
+						<u>Message de l’expéditeur :</u> '.nl2br($message).'
+					</body>
+				</html>
+			';
+
+			mail( "info@loic-parent.be", "Contact du site loic-parent.be", $message, $header );
+			$errorMsg = "Votre message à bien été envoyé";
+			$sent = 1;
+			
+		} else {
+			$errorMsg = "Veuiller compléter tous les champs";
+			$sent = 0;
+		}
+	}
+ ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -168,31 +216,35 @@
 		<section id="contact" class="contact section">
 			<div class="centerZone">
 				<h2 class="works__title2 title2">Me dire bonjour</h2>
-				<form action="#" method="post" class="contact__form">
+				<form action="#contact" method="post" class="contact__form">
+					<?php if ( isset( $errorMsg ) ) : ?>
+						<p class="errorMsg"><?= $errorMsg; ?></p><br />
+					<?php endif; ?>
 					<div class="contact__form--left">
 						<div class="contact__form--prenom">
-							<input type="text" class="champ" name="prenom" id="prenom">
+							<input type="text" class="champ" name="prenom" id="prenom" value="<?php if( isset( $_POST['prenom'] ) AND $sent != 1 ){ echo $_POST['prenom']; } ?>">
 							<label for="prenom">Prénom</label>
 						</div>
 						<div class="contact__form--nom">
-							<input type="text" class="champ" name="nom" id="nom" required>
+							<input type="text" class="champ" name="nom" id="nom" value="<?php if( isset( $_POST['nom'] ) AND $sent != 1 ){ echo $_POST['nom']; } ?>" required>
 							<label for="nom">Nom</label>
 						</div>
 						<div class="contact__form--email">
-							<input type="email" class="champ" name="email" id="email" required>
+							<input type="email" class="champ" name="email" id="email" value="<?php if( isset( $_POST['email'] ) AND $sent != 1 ){ echo $_POST['email']; } ?>" required>
 							<label for="email">Email</label>
 						</div>
 						<div class="contact__form--phone">
-							<input type="tel" class="champ" name="phone" id="phone">
+							<input type="tel" class="champ" name="phone" id="phone" value="<?php if( isset( $_POST['phone'] ) AND $sent != 1 ){ echo $_POST['phone']; } ?>">
 							<label for="phone">Téléphone</label>
 						</div>
 					</div>
 					<div class="contact__form--right">
 						<div class="contact__form--content">
-							<textarea class="champ area" name="message" required id="message"></textarea>
+							<textarea class="champ area" name="message" required id="message"><?php if( isset( $_POST['message'] ) AND $sent != 1 ){ echo $_POST['message']; } ?></textarea>
 							<label for="message">Message</label>
 						</div>
 					</div>
+					<input type="hidden" name="formsent" value="ok">
 					<input class="send" type="submit" value="Envoyer">
 					<div class="clear"></div>
 				</form>
