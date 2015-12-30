@@ -1,10 +1,10 @@
 /*     Menu:     */
 .header {
 	background-color: $mainColor;
-	height: 6.25em;
+	height: 4em;
 	position: fixed;
 	width: 100%;
-	z-index: 10000;
+	z-index: 1000;
 }
 
 .centerZone {
@@ -18,15 +18,14 @@
 
 .header__logo {
 	display: none;
-	margin-top: 1.125em;
+	margin-top: .5em;
 	margin-left: 10px;
-	width: 4em;
-	height: 4em;
+	width: 3em;
+	height: 3em;
 	text-indent: 101%;
     white-space: nowrap;
     overflow: hidden;
-	background: url('../img/logo_lp.svg') no-repeat ;
-	background-size: 4em 4em;
+	background: rgba(0, 0, 0, 0) url("../img/logo_lp.svg") no-repeat scroll 0 0 / 3em 3em;
 	animation: enter_rotate .3s;
 }
 
@@ -36,8 +35,8 @@
 
 .mainMenu {
 	float: right;
-	height: 6.25em;
-	line-height: 6.25em;
+	height: 4em;
+	line-height: 4em;
 }
 
 .mainMenu__item {

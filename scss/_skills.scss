@@ -10,19 +10,15 @@
 
 .aboutMe__skills--item:first-child {
 	-moz-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-  	transform: rotate(45deg);
-  	background-color: $mainColor;
-  	width: 80px;
-  	height: 80px;
-  	margin: 0 auto;
-  	border-radius: 10px;
-    display: block;
-}
-
-.aboutMe__skills--elm .hidden {
-  display: none;
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background-color: $mainColor;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border-radius: 10px;
+	display: block;
 }
 
 .aboutMe__skills--elm:hover {
@@ -30,26 +26,34 @@
 }
 
 .aboutMe__skills--item:first-child .abbr {
-    display: block;
-	  -moz-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-  	transform: rotate(-45deg);
-  	line-height: 80px;
-  	text-align: center;
-  	font-size: 2em;
-  	color: white;
+	display: block;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	line-height: 80px;
+	text-align: center;
+	font-size: 2em;
+	color: white;
 }
 
 .aboutMe__skills--item:last-child {
-    margin-top: 2em;
-    display: block;
-    text-align: center;
-    visibility: hidden;
+	margin-top: 2em;
+	position: relative;
+	top: -2em;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: all .3s ;
+	   -moz-transition: all .3s ;
+		-ms-transition: all .3s ;
+		 -o-transition: all .3s ;
+			transition: all .3s ;
 }
 
 .aboutMe__skills--elm:hover .aboutMe__skills--item:last-child {
-    visibility: visible;
+	opacity: 1;
+	top: 0em;
 }
 
 /*  niveaux  */

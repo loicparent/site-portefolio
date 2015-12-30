@@ -106,3 +106,42 @@
 	color: white;
 	cursor: pointer;
 }
+
+/* Affichage callback formulaire */
+.sentMsg, .errorMsg {
+  color: white;
+  background-color: #22A7F0;
+  border-radius: 3px;
+  padding: 1em;
+  padding-left: 3em;
+  position: relative;
+  -webkit-animation: appear_sentMsg 1s;
+  -o-animation: appear_sentMsg 1s;
+  animation: appear_sentMsg 1s;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.errorMsg {
+  background-color: red;
+}
+
+.sentMsg img, .errorMsg img {
+  position: absolute;
+  top: .5em;
+  left: .5em;
+  width: 2em;
+  height: 2em;
+}
+
+.errorColor label {
+  background-color: red;
+  color: white;
+}
+
+.errorColor input, .errorColor textarea {
+  border-color: red;
+}
