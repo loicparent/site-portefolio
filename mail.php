@@ -44,6 +44,10 @@
 				empty( $_POST['prenom'] ) ? $errorPrenom = 1 : null;
 				empty( $_POST['nom'] ) ? $errorNom = 1 : null;
 				empty( $_POST['email'] ) ? $errorEmail = 1 : null;
+				if ( !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ) {
+					$errorMsg .= " - Email invalide";
+					$errorEmail = 1;
+				}
 				empty( $_POST['phone'] ) ? $errorPhone = 1 : null;
 				empty( $_POST['message'] ) ? $errorMessage = 1 : null;
 			}
