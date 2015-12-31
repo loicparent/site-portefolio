@@ -3,9 +3,6 @@
 	padding-bottom: 1em;
 	text-align: center;
 }
-.theProjet .content {
-    padding-top: 0em;
-}
 .infoProject .left {
 	max-width: 40%;
 	float: left;
@@ -14,10 +11,12 @@
 	padding-left: 5%;
 	padding-right: 5%;
 }
-.theProjet {
-	animation: openPage .3s;
-}
-.theProjet .content {
+.content {
+	-webkit-animation: openPage .3s ease;
+	-moz-animation: openPage .3s ease;
+	-ms-animation: openPage .3s ease;
+	-o-animation: openPage .3s ease;
+	animation: openPage .3s ease;
 	margin-bottom: 2em;
 }
 .infoProject .left img {
@@ -30,13 +29,6 @@
 .infoProject .right p {
 	line-height: 1.5em;
 	margin-bottom: 1.5em;
-}
-
-.theProjet footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	right: 0;
 }
 .description {
 	margin-top: 3em;
@@ -56,11 +48,6 @@
 	float: left;
 	display: block;
 	width: 33.3333%;
-}
-
-.theProjet .header__logo {
-	display: block;
-	float: left;
 }
 .infoProject__link {
 	display: block;
