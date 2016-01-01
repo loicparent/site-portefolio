@@ -19,6 +19,23 @@
 	margin: 0 auto;
 	border-radius: 10px;
 	display: block;
+	-webkit-box-shadow: 1px 1px 3px $secondColor;
+	-moz-box-shadow: 1px 1px 3px $secondColor;
+	-ms-box-shadow: 1px 1px 3px $secondColor;
+	-o-box-shadow: 1px 1px 3px $secondColor;
+	box-shadow: 1px 1px 3px $secondColor;
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+	&:hover {
+		-webkit-box-shadow: 3px 3px 10px $secondColor;
+		-moz-box-shadow: 3px 3px 10px $secondColor;
+		-ms-box-shadow: 3px 3px 10px $secondColor;
+		-o-box-shadow: 3px 3px 10px $secondColor;
+		box-shadow: 3px 3px 10px $secondColor;
+	}
 }
 
 .aboutMe__skills--elm:hover {
