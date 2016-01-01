@@ -47,11 +47,11 @@
 	height: 3em;
 	line-height: 3em;
 	text-decoration: none;
-	border-radius: 0px 10px 10px 10px;
-}
-
-.aboutMe__left--cv:hover {
-	background-color: $secondColor;
+	border-radius: 10px;
+	&:hover, &:focus {
+		outline: none;
+		background-color: $secondColor;
+	}
 }
 
 .aboutMe .right p {
