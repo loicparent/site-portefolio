@@ -1018,10 +1018,11 @@ img.mfp-img {
   height: 3em;
   line-height: 3em;
   text-decoration: none;
-  border-radius: 0px 10px 10px 10px;
+  border-radius: 10px;
 }
 
-.aboutMe__left--cv:hover {
+.aboutMe__left--cv:hover, .aboutMe__left--cv:focus {
+  outline: none;
   background-color: #3F6C99;
 }
 
@@ -1059,6 +1060,24 @@ img.mfp-img {
   margin: 0 auto;
   border-radius: 10px;
   display: block;
+  -webkit-box-shadow: 1px 1px 3px #3F6C99;
+  -moz-box-shadow: 1px 1px 3px #3F6C99;
+  -ms-box-shadow: 1px 1px 3px #3F6C99;
+  -o-box-shadow: 1px 1px 3px #3F6C99;
+  box-shadow: 1px 1px 3px #3F6C99;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.aboutMe__skills--item:first-child:hover {
+  -webkit-box-shadow: 3px 3px 10px #3F6C99;
+  -moz-box-shadow: 3px 3px 10px #3F6C99;
+  -ms-box-shadow: 3px 3px 10px #3F6C99;
+  -o-box-shadow: 3px 3px 10px #3F6C99;
+  box-shadow: 3px 3px 10px #3F6C99;
 }
 
 .aboutMe__skills--elm:hover {
@@ -1233,7 +1252,7 @@ img.mfp-img {
   transition: all 0.3s ease;
 }
 
-.project:hover h3 {
+.project:hover h3, .project a:focus + h3 {
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
   -ms-transform: translateY(0%);
@@ -1241,12 +1260,12 @@ img.mfp-img {
   transform: translateY(0%);
 }
 
-.project:hover .project__picture {
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+.project:hover .project__picture, .project a:focus ~ img {
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -1894,6 +1913,9 @@ img.mfp-img {
   .topPresentation h1 {
     text-align: center;
   }
+  .centerZone {
+    padding: auto;
+  }
   .aboutMe .left {
     width: auto;
     max-width: 100%;
@@ -1950,6 +1972,10 @@ img.mfp-img {
 /*     utils:     */
 body {
   font-family: "Dosis", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+.centerZone {
+  padding: 0 1em;
 }
 
 .hambMenu {
