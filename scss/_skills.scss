@@ -29,17 +29,17 @@
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-	&:hover {
-		-webkit-box-shadow: 3px 3px 10px $secondColor;
-		-moz-box-shadow: 3px 3px 10px $secondColor;
-		-ms-box-shadow: 3px 3px 10px $secondColor;
-		-o-box-shadow: 3px 3px 10px $secondColor;
-		box-shadow: 3px 3px 10px $secondColor;
-	}
 }
 
 .aboutMe__skills--elm:hover {
   cursor: help;
+  & .aboutMe__skills--item:first-child {
+	-webkit-box-shadow: 3px 3px 10px $secondColor;
+	-moz-box-shadow: 3px 3px 10px $secondColor;
+	-ms-box-shadow: 3px 3px 10px $secondColor;
+	-o-box-shadow: 3px 3px 10px $secondColor;
+	box-shadow: 3px 3px 10px $secondColor;
+  }
 }
 
 .aboutMe__skills--item:first-child .abbr {
