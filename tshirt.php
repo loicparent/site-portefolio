@@ -31,6 +31,7 @@ include( 'header.php' );
 				<img src="./img/tshirts/3.jpg" alt="visuel de tshirt parcours de golf-fromage">
 			</a>
 		</div>
+		<div class="clear"></div>
 	</section>
 </div>
 

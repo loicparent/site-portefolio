@@ -101,6 +101,7 @@ include( 'header.php' );
 				<img src="./img/pancakes/z.jpg" alt="Photo pancakes lettre Z">
 			</a>
 		</div>
+		<div class="clear"></div>
 	</section>
 </div>
 
