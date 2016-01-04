@@ -44,7 +44,7 @@
 				empty( $_POST['prenom'] ) ? $errorPrenom = 1 : null;
 				empty( $_POST['nom'] ) ? $errorNom = 1 : null;
 				empty( $_POST['email'] ) ? $errorEmail = 1 : null;
-				if ( !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ) {
+				if ( !empty( $_POST['email'] ) AND !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ) {
 					$errorMsg .= " - Email invalide";
 					$errorEmail = 1;
 				}
