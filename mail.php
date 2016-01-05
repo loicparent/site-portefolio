@@ -28,6 +28,40 @@
 						<u>Message de l’expéditeur :</u> '.nl2br($message).'
 					</body>
 				</html>
+
+				<!DOCTYPE html>
+				<html lang="fr-BE">
+				<head>
+					<meta charset="UTF-8">
+					<title>Contact de loic-parent.be</title>
+					<link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" type="text/css">
+				</head>
+				<body style="margin: 0;padding: 0;min-width: 100%; font-family: Dosis, helvetica, sans-serif;">
+					<h1 style="background-color: #22A7F0; margin: 0; padding: 1em; font-size: 1.5em;  font-weight: normal; text-align: center; color: white;">Nouveau message de <a href="http://loic-parent.be" style="color: white; text-decoration: none;">loic-parent.be</a></h1>
+					<div style="padding: 1em; max-width: 800px; margin: auto;">
+						<h2>Message de:</h2>
+						<p style="border: 1px solid #22A7F0; padding: 0.5em; border-radius: 10px;">
+							<em style="text-decoration: underline; font-style: normal; font-weight: bold; color: #22A7F0;">Nom: </em>
+							'.$nom.'
+						</p>
+						<p style="border: 1px solid #22A7F0; padding: 0.5em; border-radius: 10px;">
+							<em style="text-decoration: underline; font-style: normal; font-weight: bold; color: #22A7F0;">Prénom: </em>
+							'.$prenom.'
+						</p>
+						<p style="border: 1px solid #22A7F0; padding: 0.5em; border-radius: 10px;">
+							<em style="text-decoration: underline; font-style: normal; font-weight: bold; color: #22A7F0;">Email: </em><a href="mailto:'.$mail.'" style="text-decoration: none; color: black;">'.$mail.'</a>
+						</p>
+						<p style="border: 1px solid #22A7F0; padding: 0.5em; border-radius: 10px;">
+							<em style="text-decoration: underline; font-style: normal; font-weight: bold; color: #22A7F0;">Tél: </em><a href="tel:'.$tel.'" style="text-decoration: none; color: black;">'.$tel.'</a>
+						</p>
+						<p style="border: 1px solid #22A7F0; padding: 0.5em; border-radius: 10px;">
+							<em style="text-decoration: underline; font-style: normal; font-weight: bold; color: #22A7F0;">Message reçu:</em>
+							'.nl2br($message).'
+						</p>
+						<a href="mailto:'.$mail.'" style="background-color: #22A7F0; border-radius: 10px; display: block; color: white; padding: 0.5em; margin: auto; text-align: center; text-decoration: none;">Répondre à la personne</a>
+					</div>
+				</body>
+				</html>
 			';
 
 			mail( "info@loic-parent.be", "Contact du site loic-parent.be", $message, $header );
