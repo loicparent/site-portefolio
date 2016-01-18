@@ -11,6 +11,42 @@
 	overflow: hidden;
 }
 
+.works div.centerZone {
+	position: relative;
+}
+
+.works__switchProject {
+	position: absolute;
+	right: 2em;
+	bottom: -5px;
+	border: 1px solid $mainColor;
+	border-radius: 5px;
+	padding: 1px;
+	background-color: $mainColor;
+	& a {
+		text-decoration: none;
+		color: white;
+		padding: 0.5em;
+		margin-right: 2px;
+		border-radius: 5px;
+		display: block;
+		float: left;
+		&:last-child {
+			margin-right: 0;
+		}
+		&.active {
+			background-color: #fff;
+			color: $mainColor;
+			outline: none;
+		}
+		&:hover, &:focus {
+			background-color: $secondColor;
+			color: white;
+			outline: none;
+		}
+	}
+}
+
 .project__picture {
 	display: block;
 	width: 100%;
