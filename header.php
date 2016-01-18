@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="Author" content="Loïc Parent" />
 	<meta name="Rev" content="info@loic-parent.be" />
-	<meta name="keywords" content="Loïc, Parent, infographiste, web, webdesigner, designer, liège, waremme, geer" />
-	<meta name="Description" content="Je suis un étudiant en infographie qui habite près de Waremme ce site est une sorte de portefolio qui présente mes travaux" />
+	<meta name="keywords" content="Loïc, Loic, loïc, loic, Parent, parent, Loïc Parent, Loic Parent, loic parent, loïc parent, lp, LP, Lp, infographiste, web, webdesigner, designer, design, liège, waremme, geer" />
+	<meta name="Description" content="Je suis un étudiant en infographie Web qui habite près de Waremme ce site est une sorte de portefolio qui présente mes travaux" />
 	<link rel="canonical" href="http://www.loic-parent.be" />
 	
 	<!-- Fav icon (http://www.favicon-generator.org/) -->
@@ -58,7 +58,7 @@
 				<?php if ( isset($home) ): ?>
 					<a href="#content" class="mainMenu__item active">Accueil</a><a href="#aboutMe" class="mainMenu__item">&Agrave; propos</a><a href="#works" class="mainMenu__item">Mes projets</a><a href="#contact" class="mainMenu__item">Contact</a>
 				<?php else: ?>
-					<a href="http://www.loic-parent.be#content" class="mainMenu__item">Accueil</a><a href="http://www.loic-parent.be#aboutMe" class="mainMenu__item">&Agrave; propos</a><a href="http://www.loic-parent.be#works" class="mainMenu__item">Mes projets</a><a href="http://www.loic-parent.be#contact" class="mainMenu__item">Contact</a>
+					<a href="./index.php#content" class="mainMenu__item">Accueil</a><a href="./index.php#aboutMe" class="mainMenu__item">&Agrave; propos</a><a href="./index.php#works" class="mainMenu__item">Mes projets</a><a href="./index.php#contact" class="mainMenu__item">Contact</a>
 				<?php endif; ?>
 			</nav>
 		</div>
