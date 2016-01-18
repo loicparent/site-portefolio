@@ -27,6 +27,7 @@
 				</head>
 				<body style="margin: 0;padding: 0;min-width: 100%; font-family: Dosis, helvetica, sans-serif;">
 					<h1 style="background-color: #22A7F0; margin: 0; padding: 1em; font-size: 1.5em;  font-weight: normal; text-align: center; color: white;">Nouveau message de <a href="http://loic-parent.be" style="color: white; text-decoration: none;">loic-parent.be</a></h1>
+					<img src="http://loic-parent.be/img/favicon.ico/apple-icon-180x180.png" width="180" height="180" style="display: block; margin: 5px auto;" alt="logo du site loic-parent" />
 					<div style="padding: 1em; max-width: 800px; margin: auto;">
 						<h2>Message de:</h2>
 						<p style="border: 1px solid #22A7F0; padding: 0.5em; border-radius: 10px;">
