@@ -18,17 +18,6 @@
 			$header .= 'Content-Transfer-Encoding: 8bit'; 
 
 			$message = '
-				<html>
-					<body>
-						<u>Message envoyé du site :</u> www.loic-parent.be<br /><br />
-						<u>Nom de l’expéditeur :</u> '.$nom.'<br />
-						<u>Prénom de l’expéditeur :</u> '.$prenom.'<br />
-						<u>Email de l’expéditeur :</u> '.$mail.'<br />
-						<u>Télephone de l’expéditeur :</u> '.$tel.'<br />
-						<u>Message de l’expéditeur :</u> '.nl2br($message).'
-					</body>
-				</html>
-
 				<!DOCTYPE html>
 				<html lang="fr-BE">
 				<head>
