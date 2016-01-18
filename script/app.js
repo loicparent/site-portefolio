@@ -44,6 +44,31 @@ function isLoad(){
 			    }, 500);
 			    return false;
 			});	
+
+
+			//petit script pour le filtre des projets:
+			$('#works .centerZone').append( '<div class="works__switchProject"><a href="#" class="works__all active">Tous</a><a href="#" class="works__web">Web</a><a href="#" class="works__print">Impression</a></div>');
+			$('.works__switchProject a').click(function( e ){
+				$('.works__switchProject a').each( function() {
+					$(this).removeClass('active');
+				});
+				e.preventDefault();
+				if ( $( this ).attr( 'class' ) === "works__all" ) {
+					$(this).addClass('active');
+					$('.project.projet_web, .project.projet_print').css('display', 'block');
+				}
+				if ( $( this ).attr( 'class' ) === "works__web" ) {
+					$(this).addClass('active');
+					$('.project.projet_print').css('display', 'none');
+					$('.project.projet_web').css('display', 'block');
+				}
+				if ( $( this ).attr( 'class' ) === "works__print" ) {
+					$(this).addClass('active');
+					$('.project.projet_web').css('display', 'none');
+					$('.project.projet_print').css('display', 'block');
+				}
+			});
+
 		} else {
 			$( '.header__logo' ).addClass( 'show' );
 		}
