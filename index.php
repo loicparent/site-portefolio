@@ -79,12 +79,12 @@ include( 'mail.php' );
 		<article class="project projet_web" itemprop"workExample">
 			<a href="./stucher.php" class="project__link">Voir le projet <span class="hidden">Stucher (PFE)</span></a>
 			<h3 class="project__info">Stucher (PFE)</h3>
-			<img src="./img/bibliotheque.png" alt="Stucher (PFE)" class="project__picture">
+			<img src="./img/stucher.png" alt="Stucher (PFE)" class="project__picture">
 		</article>
 		<article class="project projet_web" itemprop"workExample">
 			<a href="./alfa.php" class="project__link">Voir le projet <span class="hidden">Centre Alfa</span></a>
 			<h3 class="project__info">Centre Alfa</h3>
-			<img src="./img/bibliotheque.png" alt="Centre Alfa" class="project__picture">
+			<img src="./img/alfa.png" alt="Centre Alfa" class="project__picture">
 		</article>
 		<article class="project projet_web" itemprop"workExample">
 			<a href="./bibliotheque.php" class="project__link">Voir le projet <span class="hidden">Bibliothèque en ligne</span></a>
