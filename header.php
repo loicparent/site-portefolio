@@ -37,7 +37,7 @@
 	<script type="text/javascript" src="./script/app.js"></script>
 	<script type="text/javascript" src="./script/littleMenu.js"></script>
 </head>
-<body itemscope itemtype="http://schema.org/CreativeWork">
+<body itemscope itemtype="http://schema.org/Person">
 
 	<div id="hcard-Loïc-Parent" class="vcard hidden">
 		 <a class="url fn" href="http://www.loic-parent.be">Loïc Parent</a>
@@ -49,6 +49,7 @@
 		 <p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
 	</div>
 	<div class="wrapper">
+	
 	<header class="header">
 		<div class="centerZone">
 			<a href="http://www.loic-parent.be" class="header__logo">Loïc Parent</a>
