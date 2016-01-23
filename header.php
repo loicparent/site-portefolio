@@ -38,7 +38,8 @@
 	<script type="text/javascript" src="./script/littleMenu.js"></script>
 </head>
 <body itemscope itemtype="http://schema.org/CreativeWork">
-	<div id="hcard-Loïc-Parent" class="vcard" style="display:none">
+
+	<div id="hcard-Loïc-Parent" class="vcard hidden">
 		 <a class="url fn" href="http://www.loic-parent.be">Loïc Parent</a>
 		 <a class="email" href="mailto:info@loic-parent.be">info@loic-parent.be</a>
 		 <div class="adr">
