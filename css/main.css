@@ -1471,6 +1471,7 @@ img.mfp-img {
   top: 2.5em;
   border-radius: 0 0 3px 3px;
   z-index: 1;
+  font-family: "Dosis", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
 .contact__form--right div {
