@@ -2,6 +2,8 @@
 <html lang="fr-BE">
 <head>
 	<meta charset="UTF-8">
+	<title><?= $pageTitle; ?></title>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="Author" content="Loïc Parent" />
 	<meta name="Rev" content="info@loic-parent.be" />
@@ -28,8 +30,7 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<!-- Fav icon -->
-
-	<title><?= $pageTitle; ?></title>
+	
 	<link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="./css/main.css">
 	<script type="text/javascript" src="./script/jquery-1.11.3.min.js"></script>
