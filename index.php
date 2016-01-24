@@ -29,7 +29,7 @@ include( 'mail.php' );
 			<div class="clear"></div>
 			<ul class="aboutMe__skills">
 				<li class="aboutMe__skills--elm">
-					<span class="aboutMe__skills--item losange psd"><abbr class="abbr">Psd</abbr></span>
+					<span class="aboutMe__skills--item losange psd"><abbr class="abbr">Ps</abbr></span>
 					<span class="hidden">signifie</span>
 					<span class="aboutMe__skills--item">Photoshop</span>
 				</li>
