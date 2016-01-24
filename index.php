@@ -18,7 +18,7 @@ include( 'mail.php' );
 				<div class="pictureZone">
 					<img src="./img/photo.png" alt="Photo de Loïc Parent">
 				</div>
-				<a href="./CV-ParentLoïc.pdf" class="aboutMe__left--cv">télécharger mon CV</a>
+				<a href="./CV-ParentLoïc.pdf" class="aboutMe__left--cv">Télécharger mon CV</a>
 			</div>
 			<div class="right" itemprop="about">
 				<p class="aboutMe__right--first">Je m’appelle <span>Loïc Parent</span>, je suis actuellement étudiant à la Haute &Eacute;cole de la Province de Liège en option infographie orientée Web.</p>
