@@ -1,5 +1,5 @@
 <?php 
-$pageTitle = "Loïc Parent • Ds Wallonie";
+$pageTitle = "Ds Wallonie • Loïc Parent";
 include( 'header.php' );
 ?>
 

@@ -1,5 +1,5 @@
 <?php 
-$pageTitle = "Loïc Parent • Jeu canvas Esqive";
+$pageTitle = "Jeu canvas Esqive • Loïc Parent";
 include( 'header.php' );
 ?>
 
