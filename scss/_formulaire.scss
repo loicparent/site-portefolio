@@ -79,6 +79,11 @@
 	border: 1px solid rgb( 240, 240, 240 );
 	font-size: 1em;
 	padding: 0 2%;
+	-webkit-transition: all .2s ease;
+	   -moz-transition: all .2s ease;
+	    -ms-transition: all .2s ease;
+	     -o-transition: all .2s ease;
+	        transition: all .2s ease;
 }
 
 .champ:focus + label {
@@ -100,12 +105,11 @@
 	color: $mainColor;
 	font-size: 1.2em;
 	outline: none;
-}
-
-.contact__form .send:focus, .contact__form .send:hover {
-	background-color: $mainColor;
-	color: white;
-	cursor: pointer;
+	-webkit-transition: all .2s ease;
+	   -moz-transition: all .2s ease;
+	    -ms-transition: all .2s ease;
+	     -o-transition: all .2s ease;
+	        transition: all .2s ease;
 }
 
 /* Affichage callback formulaire */
