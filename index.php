@@ -49,14 +49,14 @@ include( 'mail.php' );
 					<span class="aboutMe__skills--item">Première Pro</span>
 				</li>
 				<li class="aboutMe__skills--elm">
-					<span class="aboutMe__skills--item losange html"><abbr class="abbr">5</abbr></span>
+					<span class="aboutMe__skills--item losange html"><abbr class="abbr">Html</abbr></span>
 					<span class="hidden">signifie</span>
-					<span class="aboutMe__skills--item">HTML 5</span>
+					<span class="aboutMe__skills--item">Hypertext Markup Language 5</span>
 				</li>
 				<li class="aboutMe__skills--elm">
-					<span class="aboutMe__skills--item losange css"><abbr class="abbr">3</abbr></span>
+					<span class="aboutMe__skills--item losange css"><abbr class="abbr">Css</abbr></span>
 					<span class="hidden">signifie</span>
-					<span class="aboutMe__skills--item">CSS 3</span>
+					<span class="aboutMe__skills--item">Cascading Style Sheet 3</span>
 				</li>
 				<li class="aboutMe__skills--elm">
 					<span class="aboutMe__skills--item losange js"><abbr class="abbr">JS</abbr></span>
