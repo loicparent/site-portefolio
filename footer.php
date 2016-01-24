@@ -1,7 +1,7 @@
 </div>
 <footer class="footer">
 		<p>
-			<a href="mailto:info@loic-parent.be" title="Envoyer un mail">Loïc Parent</a> 2015 • <a href="./sitemap.php">Plan du site</a>
+			<a href="mailto:info@loic-parent.be" title="Envoyer un mail">Loïc Parent</a> 2016 • <a href="./sitemap.php">Plan du site</a>
 		</p>
 	</footer>
 	
