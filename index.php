@@ -59,12 +59,12 @@ include( 'mail.php' );
 					<span class="aboutMe__skills--item">Cascading Style Sheet 3</span>
 				</li>
 				<li class="aboutMe__skills--elm">
-					<span class="aboutMe__skills--item losange js"><abbr class="abbr">JS</abbr></span>
+					<span class="aboutMe__skills--item losange js"><abbr class="abbr">Js</abbr></span>
 					<span class="hidden">signifie</span>
 					<span class="aboutMe__skills--item">Javascript</span>
 				</li>
 				<li class="aboutMe__skills--elm">
-					<span class="aboutMe__skills--item losange php"><abbr class="abbr">PHP</abbr></span>
+					<span class="aboutMe__skills--item losange php"><abbr class="abbr">Php</abbr></span>
 					<span class="hidden">signifie</span>
 					<span class="aboutMe__skills--item">Hypertext Preprocessor</span>
 				</li>
