@@ -16,31 +16,13 @@
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-}
-
-.contact a:hover {
-	-webkit-transform: scale(1.1);
-	   -moz-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	     -o-transform: scale(1.1);
-	        transform: scale(1.1);
-}
-
-.contact a:focus {
-	-webkit-transform: scale(1.1);
-	   -moz-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	     -o-transform: scale(1.1);
-	        transform: scale(1.1);	
-	outline: none;
-}
-
-.contact a:hover h4 {
-	color: $secondColor;
-}
-
-.contact a:hover .contact__picto {
-	background-color: $secondColor;
+	&:focus, &:hover {
+		outline: none;
+		color : $secondColor;
+		& .contact__picto {
+			background-color: $secondColor;
+		}
+	}
 }
 
 .contact__picto {
@@ -74,4 +56,9 @@
 
 .footer {
 	background-color: $mainColor;
+}
+
+.footer a:focus, .footer a:hover {
+	outline: none;
+	text-decoration: underline;
 }
