@@ -1,6 +1,11 @@
 <?php 
+	
+	function isRealNumber() {
+		return false;
+	}
+
 	if ( isset($_POST['formsent']) ) {
-		if ( !empty( $_POST['prenom'] ) AND !empty( $_POST['nom'] ) AND !empty( $_POST['email'] ) AND filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) AND !empty( $_POST['phone'] ) AND !empty( $_POST['message'] ) ) {
+		if ( !empty( $_POST['prenom'] ) AND !empty( $_POST['nom'] ) AND !empty( $_POST['email'] ) AND filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) AND !empty( $_POST['message'] ) ) {
 
 			$nom = htmlspecialchars($_POST['nom']);
 
@@ -10,7 +15,9 @@
 
 			$prenom = htmlspecialchars($_POST['prenom']);
 
-			$tel = htmlspecialchars($_POST['phone']);
+			if ( !empty( $_POST['phone'] ) AND isRealNumber() === false ) {
+				$tel = htmlspecialchars($_POST['phone']);
+			}
 
 			$header = "MIME-version: 1.1\r\n";
 			$header .= 'From:"loic-parent.be"<support@loic-parent.be>'."\n";
@@ -54,15 +61,25 @@
 				</html>
 			';
 
-			mail( "info@loic-parent.be", "Contact du site loic-parent.be", $message, $header );
-			$errorMsg = "Votre message à bien été envoyé";
-			$sent = 1;
+			if ( !empty( $_POST['phone'] ) AND isRealNumber() === false ) {
+				$errorMsg = "Numéro de télephone invalide";
+				$errorEmail = 1;
+			} else {
+				mail( "info@loic-parent.be", "Contact du site loic-parent.be", $message, $header );
+				$errorMsg = "Votre message à bien été envoyé";
+				$sent = 1;
+			}
 			
 		} else {
 			$sent = 0;
 			if ( !empty( $_POST['prenom'] ) AND !empty( $_POST['nom'] ) AND !empty( $_POST['email'] ) AND !empty( $_POST['phone'] ) AND !empty( $_POST['message'] ) ) {
-				$errorMsg = "Email invalide";
-				$errorEmail = 1;
+				if ( !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ) {
+					$errorMsg = "Email invalide";
+					$errorEmail = 1;
+				} elseif ( isRealNumber() !== true ) {
+					$errorMsg = "Mauvais numéro de télephone";
+					$errorEmail = 1;
+				}
 			} else {
 				$errorMsg = "Veuiller compléter tous les champs";
 				empty( $_POST['prenom'] ) ? $errorPrenom = 1 : null;
