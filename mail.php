@@ -22,7 +22,7 @@
 
 			$tel = "non spécifié";
 
-			if ( !empty( $_POST['phone'] ) AND isRealNumber() === false ) {
+			if ( !empty( $_POST['phone'] ) AND isRealNumber() === true ) {
 				$tel = htmlspecialchars($_POST['phone']);
 			}
 
