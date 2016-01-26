@@ -163,15 +163,15 @@ include( 'mail.php' );
 				<div class="contact__form--left">
 					<div class="contact__form--prenom <?php if ( isset( $errorPrenom ) ) { echo "errorColor"; } ?>">
 						<input type="text" class="champ" name="prenom" id="prenom" value="<?php if( isset( $_POST['prenom'] ) AND $sent != 1 ){ echo $_POST['prenom']; } ?>">
-						<label for="prenom">Prénom</label>
+						<label for="prenom">Prénom*</label>
 					</div>
 					<div class="contact__form--nom <?php if ( isset( $errorNom ) ) { echo "errorColor"; } ?>">
 						<input type="text" class="champ" name="nom" id="nom" value="<?php if( isset( $_POST['nom'] ) AND $sent != 1 ){ echo $_POST['nom']; } ?>" required>
-						<label for="nom">Nom</label>
+						<label for="nom">Nom*</label>
 					</div>
 					<div class="contact__form--email <?php if ( isset( $errorEmail ) ) { echo "errorColor"; } ?>">
 						<input type="email" class="champ" name="email" id="email" value="<?php if( isset( $_POST['email'] ) AND $sent != 1 ){ echo $_POST['email']; } ?>" required>
-						<label for="email">Email</label>
+						<label for="email">Email*</label>
 					</div>
 					<div class="contact__form--phone <?php if ( isset( $errorPhone ) ) { echo "errorColor"; } ?>">
 						<input type="tel" class="champ" name="phone" id="phone" value="<?php if( isset( $_POST['phone'] ) AND $sent != 1 ){ echo $_POST['phone']; } ?>">
@@ -181,7 +181,7 @@ include( 'mail.php' );
 				<div class="contact__form--right">
 					<div class="contact__form--content <?php if ( isset( $errorMessage ) ) { echo "errorColor"; } ?>">
 						<textarea class="champ area" name="message" required id="message"><?php if( isset( $_POST['message'] ) AND $sent != 1 ){ echo $_POST['message']; } ?></textarea>
-						<label for="message">Message</label>
+						<label for="message">Message*</label>
 					</div>
 				</div>
 				<input type="hidden" name="formsent" value="ok">
