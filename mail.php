@@ -20,6 +20,8 @@
 
 			$prenom = htmlspecialchars($_POST['prenom']);
 
+			$tel = "non spécifié";
+
 			if ( !empty( $_POST['phone'] ) AND isRealNumber() === false ) {
 				$tel = htmlspecialchars($_POST['phone']);
 			}
