@@ -16,7 +16,7 @@ include( 'mail.php' );
 			<h2 class="aboutMe__title2 title2">Parlons de moi…</h2>
 			<div class="left">
 				<div class="pictureZone">
-					<img src="./img/photo.png" alt="Photo de Loïc Parent">
+					<img src="./img/photo.png" alt="Photo de Loïc Parent" width="300" height="620">
 				</div>
 				<a href="./CV-ParentLoïc.pdf" class="aboutMe__left--cv">Télécharger mon CV</a>
 			</div>
@@ -79,67 +79,67 @@ include( 'mail.php' );
 		<article class="project projet_web" itemprop="workExample">
 			<a href="./stucher.php" class="project__link">Voir le projet <span class="hidden">Stucher (PFE)</span></a>
 			<h3 class="project__info">Stucher (PFE)</h3>
-			<img src="./img/stucher.png" alt="Stucher (PFE)" class="project__picture">
+			<img src="./img/stucher.png" alt="Stucher (PFE)" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_web" itemprop="workExample">
 			<a href="./alfa.php" class="project__link">Voir le projet <span class="hidden">Centre Alfa</span></a>
 			<h3 class="project__info">Centre Alfa</h3>
-			<img src="./img/alfa.png" alt="Centre Alfa" class="project__picture">
+			<img src="./img/alfa.png" alt="Centre Alfa" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_web" itemprop="workExample">
 			<a href="./bibliotheque.php" class="project__link">Voir le projet <span class="hidden">Bibliothèque en ligne</span></a>
 			<h3 class="project__info">Bibliothèque en ligne</h3>
-			<img src="./img/bibliotheque.png" alt="Bibliothèque en ligne" class="project__picture">
+			<img src="./img/bibliotheque.png" alt="Bibliothèque en ligne" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_web" itemprop="workExample">
 			<a href="./dswallonie.php" class="project__link">Voir le projet <span class="hidden">Ds Wallonie</span></a>
 			<h3 class="project__info">Ds Wallonie</h3>
-			<img src="./img/dswallonie.png" alt="Ds Wallonie" class="project__picture">
+			<img src="./img/dswallonie.png" alt="Ds Wallonie" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_web" itemprop="workExample">
 			<a href="./esquive.php" class="project__link">Voir le projet <span class="hidden">Jeu canvas “esquive”</span></a>
 			<h3 class="project__info">Jeu canvas “esquive”</h3>
-			<img src="./img/esquive.png" alt="Esquive" class="project__picture">
+			<img src="./img/esquive.png" alt="Esquive" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_print" itemprop="workExample">
 			<a href="./bouvachon.php" class="project__link">Voir le projet <span class="hidden">Huile d’olive Bouvachon</span></a>
 			<h3 class="project__info">Huile d’olive Bouvachon</h3>
-			<img src="./img/bouvachon.gif" alt="Logo et bouteille Bouvachon" class="project__picture">
+			<img src="./img/bouvachon.gif" alt="Logo et bouteille Bouvachon" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_print" itemprop="workExample">
 			<a href="./stimform.php" class="project__link">Voir le projet <span class="hidden">Catalogue Stim-from</span></a>
 			<h3 class="project__info">Catalogue Stim-from</h3>
-			<img src="./img/stimform.png" alt="Stim-Form partenaire privilégié du kinésithérapeute" class="project__picture">
+			<img src="./img/stimform.png" alt="Stim-Form partenaire privilégié du kinésithérapeute" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_print" itemprop="workExample">
 			<a href="./btf.php" class="project__link">Voir le projet <span class="hidden">Affiche Retour vers le futur</span></a>
 			<h3 class="project__info">Affiche Retour vers le futur</h3>
-			<img src="./img/btf.png" alt="Affiche Retour vers le futur" class="project__picture">
+			<img src="./img/btf.png" alt="Affiche Retour vers le futur" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_print" itemprop="workExample">
 			<a href="./pancakes.php" class="project__link">Voir le projet <span class="hidden">Pancakes Typography</span></a>
 			<h3 class="project__info">Pancakes Typography</h3>
-			<img src="./img/pancakes.png" alt="photo panecakes" class="project__picture">
+			<img src="./img/pancakes.png" alt="photo panecakes" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_print" itemprop="workExample">
 			<a href="./tshirt.php" class="project__link">Voir le projet <span class="hidden">Visuels de T-shirt</span></a>
 			<h3 class="project__info">Visuels de T-shirt</h3>
-			<img src="./img/tshirt.png" alt="Visuels de T-shirt" class="project__picture">
+			<img src="./img/tshirt.png" alt="Visuels de T-shirt" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_print" itemprop="workExample">
 			<a href="./euroskills.php" class="project__link">Voir le projet <span class="hidden">Euroskills</span></a>
 			<h3 class="project__info">Euroskills</h3>
-			<img src="./img/euroskills.png" alt="Affiche Euroskills Lisbonne 2014 compétition européenne des métiers" class="project__picture">
+			<img src="./img/euroskills.png" alt="Affiche Euroskills Lisbonne 2014 compétition européenne des métiers" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_print" itemprop="workExample">
 			<a href="./tpcv.php" class="project__link">Voir le projet <span class="hidden">Touche pas à mes certificats vert</span></a>
 			<h3 class="project__info">Touche pas à mes certificats vert</h3>
-			<img src="./img/tpcv.png" alt="Logo touche pas à mes certificats vert" class="project__picture">
+			<img src="./img/tpcv.png" alt="Logo touche pas à mes certificats vert" class="project__picture" width="600" height="500">
 		</article>
 		<article class="project projet_print" itemprop="workExample">
 			<a href="./rollstyle.php" class="project__link">Voir le projet <span class="hidden">Festival Roll-Style</span></a>
 			<h3 class="project__info">Festival Roll-Style</h3>
-			<img src="./img/rollstyle.png" alt="Planche de skateboard festival Roll-Style" class="project__picture">
+			<img src="./img/rollstyle.png" alt="Planche de skateboard festival Roll-Style" class="project__picture" width="600" height="500">
 		</article>
 		<div class="clear"></div>			
 	</section>
