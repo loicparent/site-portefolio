@@ -175,6 +175,23 @@
 	}
 }
 
+@media screen and (max-height: 350px) {
+	body .topPresentation .centerZone img {
+		height: 10em;
+	}
+	body .topPresentation .centerZone h1 {
+		font-size: 1.2em;
+		margin-top: 0;
+	}
+	.topPresentation {
+		height: 15em; 
+		padding-top: 1em;
+	}
+	.section.aboutMe {
+		margin-top: 15em;
+	}
+}
+
 @media screen and (min-width: 570px) and (max-width: 824px) {
 	/* Page projet */
 	.pancakesDesc img {
