@@ -16,3 +16,7 @@ $('.image-popup-no-margins').magnificPopup({
 		duration: 300 // don't foget to change the duration also in CSS
 	}
 });
+
+
+
+
