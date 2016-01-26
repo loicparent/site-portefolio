@@ -83,9 +83,14 @@
 				if ( !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ) {
 					$errorMsg = "Email invalide";
 					$errorEmail = 1;
-				} elseif ( isRealNumber() !== true ) {
-					$errorMsg = "Mauvais numéro de télephone";
-					$errorEmail = 1;
+					if ( isRealNumber() !== true ) {
+						$errorMsg .= " - Mauvais numéro de télephone";
+						$errorPhone = 1;
+					}
+				}
+				if ( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) AND isRealNumber() !== true ) {
+					$errorMsg .= "Mauvais numéro de télephone";
+					$errorPhone = 1;
 				}
 			} else {
 				$errorMsg = "Veuiller compléter tous les champs";
