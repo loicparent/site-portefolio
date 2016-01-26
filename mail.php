@@ -103,7 +103,6 @@
 				}
 				if ( !empty( $_POST['phone'] ) AND isRealNumber() !== true ) {
 					$errorMsg .= " - Mauvais numéro de télephone";
-					$errorEmail = 1;
 					$errorPhone = 1;
 				}
 				empty( $_POST['message'] ) ? $errorMessage = 1 : null;
