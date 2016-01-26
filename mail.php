@@ -70,7 +70,7 @@
 
 			if ( !empty( $_POST['phone'] ) AND isRealNumber() === false ) {
 				$errorMsg = "Numéro de télephone invalide";
-				$errorEmail = 1;
+				$errorPhone = 1;
 			} else {
 				mail( "info@loic-parent.be", "Contact du site loic-parent.be", $message, $header );
 				$errorMsg = "Votre message à bien été envoyé";
