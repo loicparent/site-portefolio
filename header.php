@@ -40,9 +40,6 @@
 	
 	<link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="./css/main.css">
-	<script type="text/javascript" src="./script/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="./script/app.js"></script>
-	<script type="text/javascript" src="./script/littleMenu.js"></script>
 </head>
 <body itemscope itemtype="http://schema.org/Person">
 

@@ -5,7 +5,10 @@
 		</p>
 	</footer>
 	
-	<!-- Magnific Popup core JS file -->
+	<!-- Script en fin de body -->
+	<script type="text/javascript" src="./script/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="./script/app.js"></script>
+	<script type="text/javascript" src="./script/littleMenu.js"></script>
 	<script src="./script/magnificPopup.js"></script>
 </body>
 </html>
