@@ -13,9 +13,9 @@ include( 'header.php' );
 		<div class="centerZone">
 			<h2 class="projectTitle title2 hidden">Informations sur le projet</h2>
 			<div class="left">
-				<div class="pictureZone">
+				<figure class="pictureZone">
 					<img src="./img/btf.png" alt="Affiche Retour vers le futur">
-				</div>
+				</figure>
 				<a href="http://loic1994.wix.com/website-rvlf-2" class="infoProject__link">Accéder au site</a>
 			</div>
 			<div class="right">

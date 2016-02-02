@@ -13,9 +13,9 @@ include( 'header.php' );
 		<div class="centerZone">
 			<h2 class="projectTitle title2 hidden">Informations sur le projet</h2>
 			<div class="left">
-				<div class="pictureZone">
+				<figure class="pictureZone">
 					<img src="./img/rollstyle.png" alt="Planche de skateboard RollStyle">
-				</div>
+				</figure>
 			</div>
 			<div class="right">
 				<p>En cinquième années de mon cursus à l’école secondaire de Saint-Luc à Liège, j'ai réalisé un travail de fin d'année, à présenter devant un jury de professionnels, qui portait sur l'identité complète d'un festival de sport de glisse.</p>

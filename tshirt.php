@@ -13,9 +13,9 @@ include( 'header.php' );
 		<div class="centerZone">
 			<h2 class="projectTitle title2 hidden">Informations sur le projet</h2>
 			<div class="left">
-				<div class="pictureZone">
+				<figure class="pictureZone">
 					<img src="./img/tshirt.png" alt="visuel de tshirt crocodile-banane">
-				</div>
+				</figure>
 			</div>
 			<div class="right">
 				<p>En dernière année de mon cursus à l’école secondaire de Saint-Luc de Liège, j'ai réaliser plusieurs visuels de T-shirt en noir et blanc pour financer le voyage rhétos. Comme consigne j’avais juste à combiner deux éléments différents par leurs rapprochement physiques.</p>

@@ -13,9 +13,9 @@ include( 'header.php' );
 		<div class="centerZone">
 			<h2 class="projectTitle title2 hidden">Informations sur le projet</h2>
 			<div class="left">
-				<div class="pictureZone">
+				<figure class="pictureZone">
 					<img src="./img/stimform.png" alt="Catalogue Stim-form">
-				</div>
+				</figure>
 			</div>
 			<div class="right">
 				<p>Cela fait maintenant la troisième année que la société Stim-form me fait confiance pour la mise en page et le design de leur catalogue.</p>

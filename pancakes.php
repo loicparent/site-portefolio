@@ -13,9 +13,9 @@ include( 'header.php' );
 		<div class="centerZone">
 			<h2 class="projectTitle title2 hidden">Informations sur le projet</h2>
 			<div class="left">
-				<div class="pictureZone">
+				<figure class="pictureZone">
 					<img src="./img/pancakes.png" alt="Photo pancakes">
-				</div>
+				</figure>
 			</div>
 			<div class="right">
 				<p>En deuxième année de mon cursus à la Haute &Eacute;cole de la Province de Liège, j'ai réaliser un travail avec ma coéquipière Catherine Tsakirakis qui portait sur la typographie et plus précisément sur une façon ludique de l'utiliser ou de la représenter.</p>

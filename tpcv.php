@@ -13,9 +13,9 @@ include( 'header.php' );
 		<div class="centerZone">
 			<h2 class="projectTitle title2 hidden">Informations sur le projet</h2>
 			<div class="left">
-				<div class="pictureZone">
+				<figure class="pictureZone">
 					<img src="./img/tpcv.png" alt="logo TPCV">
-				</div>
+				</figure>
 			</div>
 			<div class="right">
 				<p>En dernière année de mon cursus à l’école secondaire de Saint-Luc à Liège, j'ai réalisé l'ensemble des déclinaisons graphiques d'une <abbr title="Association sans but lucratif">asbl</abbr> belge qui luttait pour le maintient des certificats vers dans le cadre de l'installation de panneaux solaire photovoltaïque.</p>

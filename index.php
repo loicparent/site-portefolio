@@ -19,9 +19,9 @@ include( 'mail.php' );
 		<div class="centerZone">
 			<h2 class="aboutMe__title2 title2">Parlons de moi…</h2>
 			<div class="left">
-				<div class="pictureZone">
+				<figure class="pictureZone">
 					<img src="./img/photo.png" alt="Photo de Loïc Parent" width="300" height="620">
-				</div>
+				</figure>
 				<a href="./CV-ParentLoïc.pdf" class="aboutMe__left--cv">Télécharger mon CV</a>
 			</div>
 			<div class="right" itemprop="about">

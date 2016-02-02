@@ -13,9 +13,9 @@ include( 'header.php' );
 		<div class="centerZone">
 			<h2 class="projectTitle title2 hidden">Informations sur le projet</h2>
 			<div class="left">
-				<div class="pictureZone">
+				<figure class="pictureZone">
 					<img src="./img/esquive.png" alt="esquive">
-				</div>
+				</figure>
 				<a href="http://loic-parent.be/miniJeu2.0/" class="infoProject__link">Accéder au jeu</a>
 			</div>
 			<div class="right">

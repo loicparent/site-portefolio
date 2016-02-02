@@ -14,9 +14,9 @@ include( 'header.php' );
 			<h2 class="projectTitle title2 hidden">Informations sur le projet</h2>
 			
 			<div class="left">
-				<div class="pictureZone">
+				<figure class="pictureZone">
 					<img src="./img/bouvachon.gif" alt="logo et bouteille Bouvachon">
-				</div>
+				</figure>
 				<a href="http://loic1994.wix.com/bouvachon-olive-oil" class="infoProject__link">Accéder au site</a>
 			</div>
 
