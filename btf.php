@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Affiche Retour vers le futur • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="Affiche, retour vers le futur, back to the future, saint-luc secondaire, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="En secondaire, j’ai décliné une affiche de film célèbre, celle de retour vers le futur et ce en m’intégrant à la place de l’acteur au centre de celle-ci." />
+';
 include( 'header.php' );
 ?>
 

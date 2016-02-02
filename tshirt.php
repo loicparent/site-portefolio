@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Visuels de T-shirts • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="T-shirt, t-shirt, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="En secondaire, pour soulager le budget de mon voyage de fin d’étude, j’ai réalisé plusieurs visuels graphique pour le flocage de t-shirt." />
+';
 include( 'header.php' );
 ?>
 

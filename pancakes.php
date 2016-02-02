@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Typographie en pancakes • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="Pancakes, crêpes, typographie, lettre, nouriture, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="En 2015, j’ai réalisé avec Catherine Tsakirakis un ensemble typographique fait en pancakes pour mon cours de typographie." />
+';
 include( 'header.php' );
 ?>
 

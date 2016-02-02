@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Centre Alfa • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="Centre Alfa, Alfa, alfa, centre alfa, Liège, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="Centre Alfa est une asbl situé à Liège. J’ai été sélectionné suite à un concours pour réaliser la refonte de leurs site." />
+';
 include( 'header.php' );
 ?>
 

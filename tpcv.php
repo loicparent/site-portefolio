@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Projet TPCV • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="TPCV, tpcv, Touche Pas mes Certificats Vert, panneaux solaires, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="En secondaire, j’ai réalisé un kit administratif de base pour une asbl Liègoise, TPCV." />
+';
 include( 'header.php' );
 ?>
 

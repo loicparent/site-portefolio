@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Ds Wallonie • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="DS Wallonie, Xerox, imprimante, Liège, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="Ds Wallonie est une société partenaire de Xerox et situé à Liège. Cette agence est un vendeur d’imprimante. J’ai participé à un concours de refonte pour leur site. " />
+';
 include( 'header.php' );
 ?>
 

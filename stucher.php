@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Stucher (PFE) • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="Stucher, stucher, PFE, pfe, tfe, TFE, école, journal de classe, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="Stucher est le titre de mon projet de fin d’étude à la Haute École de la Province de Liège. Il s’agit d’un journal de classe interactif entre l’élève et son professeur." />
+';
 include( 'header.php' );
 ?>
 

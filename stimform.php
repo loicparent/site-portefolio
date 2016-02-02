@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Catalogue Stim-form • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="stim-form, stimform, catalogue, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="Depuis 2012 je m’occupe de la réalisation complète du catalogue Stim-form. Stim-form est une société Belge de vente de produit destinés aux hopitaux et aux kiné." />
+';
 include( 'header.php' );
 ?>
 

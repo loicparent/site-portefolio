@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Jeu canvas Esqive • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="Esquive, mini jeu, canvas, bulles, jeu, Liège, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="Esquive est un mini-jeu que j’ai réalisé en 2015 pour mon cours de web-js. Ce jeu est réalisé avec la balise canvas et du javascript." />
+';
 include( 'header.php' );
 ?>
 

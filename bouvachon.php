@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Huile d’olive Bouvachon • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="Bouvachon, olive, huile, affiche, saint-luc secondaire, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="Bouvachon est le nom de mon projet de fin d’étude secondaire. Il s’agit d’un ensemble de réalisation graphiques fictif basé sur l’huile d’olive" />
+';
 include( 'header.php' );
 ?>
 

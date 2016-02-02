@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Bibliothèque en ligne • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="Bibliothèque, bibliothèque en ligne, library, book, projet web, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="Bibliothèque en ligne est un site Web réalisé en 2015 pour le cours de projet Web. Le site est basé sur le modèle MVC." />
+';
 include( 'header.php' );
 ?>
 

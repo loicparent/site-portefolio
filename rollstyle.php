@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Festival RollStyle • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="RollStyle, RollStyle festival, saint-luc secondaire, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="En 5e secondaire, j’ai réalisé un projet de fin d’année qui consistait à créer un ensemble graphique fictif pour un festival de sport de glisse." />
+';
 include( 'header.php' );
 ?>
 

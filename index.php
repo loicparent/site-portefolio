@@ -1,6 +1,10 @@
 <?php 
 $home = true;
 $pageTitle = "Loïc Parent • design graphic";
+$headerContent = '
+	<meta name="keywords" content="Loïc, Loic, loïc, loic, Parent, parent, Loïc Parent, Loic Parent, loic parent, loïc parent, lp, LP, Lp, infographiste, web, webdesigner, designer, design, liège, waremme, geer" />
+	<meta name="Description" content="Je suis un étudiant en infographie Web qui habite près de Waremme ce site est une sorte de portefolio qui présente mes travaux" />
+';
 include( 'header.php' );
 include( 'mail.php' );
 ?>

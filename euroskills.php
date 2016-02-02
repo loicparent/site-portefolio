@@ -1,5 +1,9 @@
 <?php 
 $pageTitle = "Euroskills • Loïc Parent";
+$headerContent = '
+	<meta name="keywords" content="Euroskills, Lisbonne, chocolat, ipes waremme, saint-luc secondaire, Loïc Parent, Loic Parent, loic parent, loïc parent" />
+	<meta name="Description" content="En secondaire, j’ai réalisé un dépliant fictif ainsi qu’une affiche sur le célèbre concours Euroskills en présentant un métier en particulier, le chocolatier." />
+';
 include( 'header.php' );
 ?>
 
