@@ -166,7 +166,7 @@ include( 'mail.php' );
 				<?php endif; ?>
 				<div class="contact__form--left">
 					<div class="contact__form--prenom <?php if ( isset( $errorPrenom ) ) { echo "errorColor"; } ?>">
-						<input type="text" class="champ" name="prenom" id="prenom" value="<?php if( isset( $_POST['prenom'] ) AND $sent != 1 ){ echo $_POST['prenom']; } ?>">
+						<input type="text" class="champ" name="prenom" required id="prenom" value="<?php if( isset( $_POST['prenom'] ) AND $sent != 1 ){ echo $_POST['prenom']; } ?>">
 						<label for="prenom">Prénom*</label>
 					</div>
 					<div class="contact__form--nom <?php if ( isset( $errorNom ) ) { echo "errorColor"; } ?>">
