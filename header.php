@@ -15,7 +15,6 @@
 	<meta property="og:title" content="Loïc Parent • design graphic" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Je suis un étudiant en infographie Web qui habite près de Waremme ce site est une sorte de portefolio qui présente mes travaux" />
-	<meta property="og:url" content="http://www.loic-parent.be" />
 	<meta property="og:image" content="http://www.loic-parent.be/img/favicon.ico/android-icon-192x192.png" />
 	
 	<!-- Fav icon (http://www.favicon-generator.org/) -->
