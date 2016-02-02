@@ -47,16 +47,6 @@
 	}
 }
 
-.project__picture {
-	display: block;
-	width: 100%;
-	-webkit-transition: all 1.5s ease;
-	   -moz-transition: all 1.5s ease;
-	    -ms-transition: all 1.5s ease;
-	     -o-transition: all 1.5s ease;
-	        transition: all 1.5s ease;
-}
-
 .project__info {
 	display: block;
 	position: absolute;
@@ -87,6 +77,17 @@
 	-ms-transform: translateY(0%);
 	-o-transform: translateY(0%);
 	transform: translateY(0%);
+}
+
+.project__picture {
+	display: block;
+	width: 100%;
+	height: auto;
+	-webkit-transition: all 1.5s ease;
+	   -moz-transition: all 1.5s ease;
+	    -ms-transition: all 1.5s ease;
+	     -o-transition: all 1.5s ease;
+	        transition: all 1.5s ease;
 }
 
 .project:hover .project__picture, .project a:focus~img {
