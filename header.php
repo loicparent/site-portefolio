@@ -38,7 +38,7 @@
 	<!-- Fav icon -->
 	
 	<link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="./css/main.css">
+	<link href="./css/main.<?php echo filemtime('./css/main.css'); ?>.css" rel="stylesheet" type="text/css" />
 </head>
 <body itemscope itemtype="http://schema.org/Person">
 
