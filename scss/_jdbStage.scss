@@ -1,0 +1,48 @@
+.jdbStage__subtitle {
+	color: $secondColor;
+	font-size: 2em;
+	font-style: italic;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+.jdbStageDay p {
+	font-size: 1.5em;
+	line-height: 1.5;
+	margin-top: 1em;
+}
+
+.jdbStage__nav {
+	font-size: 1rem;
+	margin: 3em 0;
+	& a {
+		background-color: $mainColor;
+		color: #fff;
+		padding: 1em;
+		text-decoration: none;
+		& + a {
+			margin-left: 1em;
+		}
+		&:focus, &:hover {
+			background-color: $secondColor;
+		}
+	}
+}
+
+.style__img--center {
+	display: block;
+	margin: 1em auto;
+}
+
+.style__img--middleSize {
+	width: 20em;
+}
+
+.style__img--smallSize {
+	width: 10em;
+}
+
+.style__img--right {
+	float: right;
+	margin: 1em;
+}
