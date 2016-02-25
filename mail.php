@@ -93,7 +93,7 @@
 					$errorPhone = 1;
 				}
 			} else {
-				$errorMsg = "Veuiller compléter tous les champs (*)";
+				$errorMsg = "Veuiller compléter tous les champs obligatoires (*)";
 				empty( $_POST['prenom'] ) ? $errorPrenom = 1 : null;
 				empty( $_POST['nom'] ) ? $errorNom = 1 : null;
 				empty( $_POST['email'] ) ? $errorEmail = 1 : null;
