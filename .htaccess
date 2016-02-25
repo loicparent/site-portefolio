@@ -12,3 +12,6 @@ Header set Cache-Control "max-age=10800"
 <FilesMatch "\.(html|htm|php)$">
 Header set Cache-Control "max-age=0, private, no-store, no-cache, must-revalidate"
 </FilesMatch>
+
+RewriteEngine On
+RewriteRule ^(css|script|jdb_stage|jdb_stage)/(.*)\.[0-9]+\.(css|js|php)$ $1/$2.$3 [L]
