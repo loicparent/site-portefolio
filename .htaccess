@@ -1,11 +1,11 @@
-# 1 WEEK
+# 1 MONTH - img and externals files
 <FilesMatch "\.(jpg|jpeg|png|gif|swf|svg)$">
-Header set Cache-Control "max-age=604800, public"
+Header set Cache-Control "max-age=2419200, public"
 </FilesMatch>
 
-# 3 HOUR
+# 1 MONTH - js and css files
 <FilesMatch "\.(txt|xml|js|css)$">
-Header set Cache-Control "max-age=10800"
+Header set Cache-Control "max-age=2419200"
 </FilesMatch>
 
 # NEVER CACHE - notice the extra directives
