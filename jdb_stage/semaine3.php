@@ -103,7 +103,7 @@
 	<div class="centerZone jdbStageDay jdbStageDay--ven jour5">
 		<h2 class="jdbStage__subtitle">JOUR 15 - 19/02</h2>
 		<p>Voici la fin de la semaine et aujourd’hui, j’ai travaillé sur le site de djm mobile. J’ai passé la journée à installer correctement les pages et mettre le thème en place en suivant les instructions et désirs des responsables du projet (à savoir les personnes de marketing).</p>
-		<div class="gallery">
+		<div class="zoom-gallery">
 		    <a href="./img/djmMobile_visualComposer1.png">
 				<img class="style__img--right style__img--smallSize" src="./img/djmMobile_visualComposer1.png" alt="illustration de visual composer">
 		    </a>

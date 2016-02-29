@@ -126,12 +126,15 @@
 			<img class="style__img--center style__img--middleSize" src="./img/sirop2.PNG" alt="aperçu de l'interface wordpress pour le site de la siroperie Autbel">
 		</a></p>
 		<p>Une fois tout installé et prêt à être utilisé, j’ai donc commencé par voir comment était réalisé le thème et comment j’allais devoir intervenir. J’ai été très surpris de voir tout ce que Wordpress permet de faire, car avec les configurations du thème il reste « juste » à manipuler les données au travers d’une interface un peu plus complex mais qui se rapproche assez bien du fonctionnement de wix.com donc avec un système drag and drop et différents outils wysiwyg ajouter avec différents plugins. Je m’attendais à devoir venir coder des choses mais aprioris, sauf si c’est nécessaire pour une raison particulière, ce ne sera pas le cas.
-		<a class="image-popup-no-margins" href="./img/sirop3.PNG">
-			<img class="style__img--right style__img--smallSize" src="./img/sirop3.PNG" alt="aperçu de l'interface wordpress pour le site de la siroperie Autbel">
-		</a>
-		<a class="image-popup-no-margins" href="./img/sirop4.PNG">
-			<img class="style__img--right style__img--smallSize" src="./img/sirop4.PNG" alt="aperçu de l'interface wordpress pour le site de la siroperie Autbel">
-		</a></p>
+		</p>
+		<div class="zoom-gallery">
+			<a href="./img/sirop3.PNG">
+				<img class="style__img--right style__img--smallSize" src="./img/sirop3.PNG" alt="aperçu de l'interface wordpress pour le site de la siroperie Autbel">
+			</a>
+			<a href="./img/sirop4.PNG">
+				<img class="style__img--right style__img--smallSize" src="./img/sirop4.PNG" alt="aperçu de l'interface wordpress pour le site de la siroperie Autbel">
+			</a>	
+		</div>
 		<p>Il m’a fallu un petit moment d’adaptation pour bien comprendre comment je vais devoir travailler avec ce site car je n’ai pas encore eu l’occasion de travailler avec le thème de quelqu’un d’autre étant donné que j’ai toujours travaillé avec un thème que j’avais créé.</p>
 		<p>J’ai donc fait différents tests pour m’habituer à la façon de travailler et j’ai commencé à mettre en place les pages selon les indications de Thomas pour le site.</p>
 	</div>
