@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="27e2e562-e9d7-4f2c-b124-1f256687e893" name="loic-parent.be" url="http://ftp.loic-parent.be">
+        <fileTransfer host="ftp.loic-parent.be" port="21" rootFolder="/www" password="df99dfd2dfc8dfdfdfdfdff9dfc4dfcedfcddfc1dfc7dfcd" username="loicpareyb">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
