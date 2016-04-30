@@ -127,7 +127,7 @@
 	</div>
 
 	<div class="centerZone jdbStageDay jdbStageDay--summary">
-		<h2 class="jdbStage__subtitle">Résumé de la semaine:</h2>
+		<h2 class="jdbStage__subtitle">Résumé de la semaine&nbsp;:</h2>
 		<p>Cette troisième semaine j’ai travaillé essentiellement sur trois projets: une newsletter pour la HEL et deux intégrations de sites avec Wordpress pour la siroperie d’Aubel et le site dédié au mobile de DJM Digital.</p>
 		<p>J’ai donc à nouveau eu l’occasion de faire une newsletter avec Compaign Monitor et en fin de compte, c’est vrai que ce n’est pas si mal (même si ça ajoute des balises pour rien et qu’il y a des fonctions qui n’existent pas comparé à MailChimp mais par contre, tout semble fonctionner ici).</p>
 		<p>J’ai également travaillé avec Wordpress pour la mise en place et l’intégration de deux sites Internet (enfin surtout un car un problème sur le serveur a bloqué l’accès à la base de données de la siroperie et donc au site). J’ai donc pu m’exercer à travailler dans l’interface de Wordpress et découvrir tout ce que ce CMS propose. Par ailleurs, j’ai eu l’occasion de découvrir des outils et plugins assez révolutionnaires et utiles qui bouleversent un peu mes connaissances de Wordpress.</p>

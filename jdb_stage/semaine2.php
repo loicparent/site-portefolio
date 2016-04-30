@@ -140,7 +140,7 @@
 	</div>
 
 	<div class="centerZone jdbStageDay jdbStageDay--summary">
-		<h2 class="jdbStage__subtitle">Résumé de la semaine:</h2>
+		<h2 class="jdbStage__subtitle">Résumé de la semaine&nbsp;:</h2>
 		<p>Cette deuxième semaine j’ai j’ai travaillé essentiellement sur quatre projets: une newsletter pour Eurotoque, une recherche de template et un début d’intégration de site avec Wordpress, la tentative de mise en place de différents lieux pour une page Facebook et enfin, effectué des changements et ajouts sur un site en rapport avec les applications Facebook pour Évolution de la semaine dernière.</p>
 		<p>J’ai donc pu retravailler sur une newsletter avec MailChimp et pu donc comparer ces deux outils en remarquant que mailChimp est nettement mieux que Compaignmoniteur. J’ai donc travaillé de la même façon avec des tableaux etc. et rendu le tout administrable dans une interface dédiée.</p>
 		<p>J’ai pu travailler sur des sites Internet avec Wordpress de deux façons différents: une plus habituelle qui consistait à travailler avec des pages php et des custom-post-type et l’autre plus nouvelle pour moi, de travailler avec un thème pré-conçu et adapter ce thème, au sein de l’interface Wordpress.</p>

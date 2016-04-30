@@ -110,7 +110,7 @@
 	</div>
 
 	<div class="centerZone jdbStageDay jdbStageDay--summary">
-		<h2 class="jdbStage__subtitle">Résumé de la semaine:</h2>
+		<h2 class="jdbStage__subtitle">Résumé de la semaine&nbsp;:</h2>
 		<p>Cette première semaine j’ai découvert une société avec une équipe bien sympathique et j’ai travaillé essentiellement sur trois projets: une newsletter, une recherche de template pour une intégration de site avec Wordpress et enfin, la mise en place d’une application Facebook.</p>
 		<p>J’ai donc découvert comment réaliser une newsletter à l’ancienne avec des tableaux, en testant et adaptant le style en inline pour m’assurer de la compatibilité de la newsletter dans les différentes boîtes mails et enfin, la réalisé en responsive pour les différents formats de supports mobile.</p>
 		<p>J’ai aussi rencontré différents petits problème lier à l’outil que j’utilisais car vu que j’ai l’habitude de travailler sur un ordinateur Apple et que là, je devais travailler sur un Windows, les habitudes ne serait-ce que les raccourcis clavier ou la position des touches m’a un peu troublé les premiers jours mais rien de très embêtant. Et j’ai remarqué que je devais bien souvent faire les recherches sur google quand il y a un outil que je ne connais pas (ce que je faisais déjà auparavant mais qui s’avérait encore plus pertinent ici).</p>

@@ -99,7 +99,7 @@
 		<a class="image-popup-no-margins" href="./img/logoDrupal.png">
 			<img class="style__img--center style__img--middleSize" src="./img/logoDrupal.png" alt="illustration du logo de Drupal">
 	    </a>
-		<p>En fin de journée, j’ai créé une maquette avec Photoshop pour le site <a href="http://katymo.be">www.katymo.be</a>. Je devais faire une seule page temporaire pour annoncer que le site est «&nbsp;en attente&nbsp;». Donc j’ai regardé le site et je me suis renseigné sur l’objet du site pour m’inspirer et savoir un peu plus vers quel style j’allais me diriger pour ce travail. J’ai fini la journée avec une bonne partie des projets réalisés ou bien avancé.</p>
+		<p>En fin de journée, j’ai créé une maquette avec Photoshop pour le site <a href="http://katymo.com">www.katymo.com</a>. Je devais faire une seule page temporaire pour annoncer que le site est «&nbsp;en attente&nbsp;». Donc j’ai regardé le site et je me suis renseigné sur l’objet du site pour m’inspirer et savoir un peu plus vers quel style j’allais me diriger pour ce travail. J’ai fini la journée avec une bonne partie des projets réalisés ou bien avancé.</p>
 		<div class="zoom-gallery">
 		    <a href="./img/katymo1.png">
 				<img class="style__img--right style__img--smallSize" src="./img/katymo1.png" alt="illustration de la maquette katimo">
@@ -112,7 +112,7 @@
 
 	<div class="centerZone jdbStageDay jdbStageDay--ven jour5">
 		<h2 class="jdbStage__subtitle">JOUR 20 - 26/02</h2>
-		<p>Aujourd’hui, j’ai commencé la journée en proposant les maquettes Photoshop pour le site de <a href="http://katymo.be">www.katymo.be</a> j’ai eu un bon retour de la responsable de projets Web qui a soumis les projets à ladite Katy.</p>
+		<p>Aujourd’hui, j’ai commencé la journée en proposant les maquettes Photoshop pour le site de <a href="http://katymo.com">www.katymo.com</a> j’ai eu un bon retour de la responsable de projets Web qui a soumis les projets à ladite Katy.</p>
 		<p>Après cela, je suis revenu sur le site de djm mobile en y adaptant le design. Quelques minutes après avoir commencé à travailler sur le design du site, on a décidé avec Benjamin (le stagiaire en marketing) de faire une réunion entre lui, moi et les deux graphistes (Delphine et Élise) pour voir ce qu’on a fait et ce qu’il reste à faire.</p>
 		<p>Après ça, je suis revenu sur quelques détails du site. J’ai installé différents plugins comme celui qui permet d’ajouter des espaces insécables lorsqu’il y a lieu d’en avoir etc., j’ai adapté le design de certaines pages en me focalisant sur la page d’accueil. J’ai également changé les images du site à certains endroits (comme les icônes du site ou le slider etc.) et corrigé des erreurs d’affiche dans le fichier css du thème enfant: j’ai modifié l’affichage des formulaires, du bouton du slider et d’autres petits éléments du site.</p>
 		<a class="image-popup-no-margins" href="./img/djmMobile-1.png">
@@ -125,7 +125,7 @@
 	</div>
 
 	<div class="centerZone jdbStageDay jdbStageDay--summary">
-		<h2 class="jdbStage__subtitle">Résumé de la semaine:</h2>
+		<h2 class="jdbStage__subtitle">Résumé de la semaine&nbsp;:</h2>
 		<p>Et oui! Déjà un mois passé chez djm digital et tout semble toujours aussi bien se passer &#9786;
 		Cette quatrième semaine j’ai travaillé essentiellement sur quatre projets: le site dim-mobile.be avec Wordpress, l’installation de widget et les corrections d’affichages sur le site evolutionclub.be et enfin, des maquettes photoshop pour katymo.be.</p>
 		<p>J’ai donc passé beaucoup de temps sur le site de djm mobile en me focalisant sur le design du site ainsi que sa mise en forme d’un point de vue intégration. On avait proposé un premier design auquel je suis venu changer la forme pour le rendre plus actuel et plus accrocheur.</p>

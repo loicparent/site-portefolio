@@ -77,7 +77,7 @@
 	</div>
 
 	<div class="centerZone jdbStageDay jdbStageDay--summary">
-		<h2 class="jdbStage__subtitle">Résumé de la semaine:</h2>
+		<h2 class="jdbStage__subtitle">Résumé de la semaine&nbsp;:</h2>
 		
 	</div>
 	<div class="centerZone">
