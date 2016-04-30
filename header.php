@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title><?= $pageTitle; ?></title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="Author" content="Loïc Parent" />
 	<meta name="Rev" content="info@loic-parent.be" />
 	<link rel="canonical" href="http://www.loic-parent.be" />
