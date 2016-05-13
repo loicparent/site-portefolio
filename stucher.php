@@ -16,12 +16,11 @@ include( 'header.php' );
 				<figure class="pictureZone">
 					<img src="./img/stucher.png" alt="Stucher PFE">
 				</figure>
-				<a href="http://stucher.loic-parent.be" class="infoProject__link">Accéder au site</a>
+				<a href="http://stucher.be" class="infoProject__link">Accéder au site</a>
 			</div>
 			<div class="right">
-				<p>Me voici en dernière année du cursur à la Haute École de la Province de Liège et donc, je dois réaliser un Projet de fin d'étude.</p>
+				<p>Me voici en dernière année du cursus à la Haute École de la Province de Liège et donc, j'ai dû réaliser un Projet de fin d'étude.</p>
 				<p>Ce projet, c'est Stucher (pour Student and Teacher). Il s'agit d'un journal de classe interactif et partagé entre l'élève et son professeur.</p>
-				<p>Pour le moment il s'agit d'une version BETA du projet.</p>
 				<p>Trêve d’explications, je vous propose de découvrir le projet.</p>
 			</div>
 			<div class="clear"></div>
