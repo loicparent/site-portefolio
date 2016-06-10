@@ -10,7 +10,7 @@ include( 'header.php' );
 			<li><a href="./index.php#aboutMe">À propos</a></li>
 			<li><a href="./index.php#works">Mes projets</a>
 				<ul>
-					<li><a href="http://stucher.loic-parent.be">Stucher (PFE)</a></li>
+					<li><a href="./stucher.php">Stucher (PFE)</a></li>
 					<li><a href="./alfa.php">Centre Alfa</a></li>
 					<li><a href="./bibliotheque.php">Bibliothèque en ligne</a></li>
 					<li><a href="./dswallonie.php">Ds Wallonie</a></li>
