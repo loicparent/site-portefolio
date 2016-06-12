@@ -37,6 +37,8 @@
 	<meta name="msapplication-TileImage" content="./img/favicons/mstile-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<!-- Fav icon -->
+
+	<meta name="msvalidate.01" content="D0E096F381DF9BEAFAF771F29EBA1D79" />
 	
 	<link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 	<link href="./css/main.<?php echo filemtime('./css/main.css'); ?>.css" rel="stylesheet" type="text/css" />
