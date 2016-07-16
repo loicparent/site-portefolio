@@ -23,7 +23,6 @@ include( 'header.php' );
 					<li><a href="./euroskills.php">Euroskills</a></li>
 					<li><a href="./tpcv.php">Touche pas mes certificas vert</a></li>
 					<li><a href="./rollstyle.php">Festival Roll-Style</a></li>
-					<li><a href="">…</a></li>
 				</ul>
 			</li>
 			<li><a href="./index.php#contact">Contact</a></li>
