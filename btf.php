@@ -19,7 +19,7 @@ include( 'header.php' );
 				<a href="http://loic1994.wix.com/website-rvlf-2" class="infoProject__link">Accéder au site</a>
 			</div>
 			<div class="right">
-				<p>En dernière année de mon cursus à l’école secondaire de Saint-Luc à Liège, j'ai dû détourner une affiche de film (Retour vers le futur) en m’intégrant à la place de l’acteur présent dans celle-ci.</p>
+				<p>En dernière année de mon cursus à l’école secondaire de Saint-Luc à Liège, j'ai dû détourner une affiche de film en m’intégrant à la place de l’acteur présent dans celle-ci. J'ai alors choisi l'affiche de Retour vers le futur.</p>
 				<p>Pour ce projet, j’ai participé à un shooting photo, utiliser le logiciel Photoshop et utilisé toutes sorte de techniques pour obtenir l'effet souhaité.</p>
 				<p>Par ailleurs, j'ai réalisé un site Internet avec wix par rapport à ce projet.</p>
 				<p>Trêve d’explications, je vous propose de découvrir le projet.</p>

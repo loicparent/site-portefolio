@@ -18,7 +18,7 @@ include( 'header.php' );
 				</figure>
 			</div>
 			<div class="right">
-				<p>En deuxième année de mon cursus à la Haute &Eacute;cole de la Province de Liège, j'ai réaliser un travail avec ma coéquipière Catherine Tsakirakis qui portait sur la typographie et plus précisément sur une façon ludique de l'utiliser ou de la représenter.</p>
+				<p>En deuxième année de mon cursus à la Haute &Eacute;cole de la Province de Liège, j'ai réaliser un projet avec ma coéquipière Catherine Tsakirakis qui portait sur la typographie et plus précisément sur une façon ludique de l'utiliser ou de la représenter.</p>
 				<p>Nous avions opter pour un travail goûtu et tout à fait délicieux&nbsp;: des pancakes!</p>
 				<p>On a donc préparé une recette et dessiné les lettres à l’aide d’une douille avant de recouvrir le tout de la pâte.</p>
 				<p>&Agrave; vos fourneaux, je vous propose de découvrir le projet.</p>

@@ -19,9 +19,9 @@ include( 'header.php' );
 				<a href="http://loic-parent.be/bibliotheque" class="infoProject__link">Accéder au site</a>
 			</div>
 			<div class="right">
-				<p>En deuxième année de mon cursus à la Haute &Eacute;cole de la Province de Liège, on nous a demandé dans le cadre du cours de web de réaliser une bibliothèque en ligne.</p>
-				<p>Pour réaliser ce projet, j’ai dû utiliser le langage <abbr title="Hypertext Preprocessor">PHP</abbr> ainsi que la gestion de base de données avec <abbr title="Structured Query Language">SQL</abbr>.</p>
-				<p>Cette bibliothèque permet donc à celui qui se rend dessus, de voir tous les livres et informations qui les concernent, de créer un compte ou de s’identifier et ensuite, ajouter des livres dans ce qu’on pourrait définir comme zone de favoris.</p>
+				<p>En deuxième année de mon cursus à la Haute &Eacute;cole de la Province de Liège, on nous a demandé, dans le cadre du cours de web, de réaliser une bibliothèque en ligne.</p>
+				<p>Pour mettre en place ce projet, j’ai dû utiliser le langage <abbr title="Hypertext Preprocessor">PHP</abbr> ainsi que la gestion de base de données avec <abbr title="Structured Query Language">SQL</abbr>. Le projet est construit sur une structure MVC.</p>
+				<p>Cette bibliothèque permet donc à celui qui se rend dessus, de voir tous les livres et les informations s'y rapportant, de créer un compte ou de s’identifier et ensuite, ajouter des livres dans ce qu’on pourrait définir comme la zone de favoris.</p>
 				<p>Trêve d’explications, je vous propose de tester par vous même le projet.</p>
 			</div>
 			<div class="clear"></div>
