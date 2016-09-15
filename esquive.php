@@ -16,7 +16,7 @@ include( 'header.php' );
 				<figure class="pictureZone">
 					<img src="./img/esquive.png" alt="esquive">
 				</figure>
-				<a href="http://loic-parent.be/miniJeu2.0/" class="infoProject__link">Accéder au jeu</a>
+				<a href="http://loic-parent.be/miniJeu2.0/" class="infoProject__link" target="_blank">Accéder au jeu</a>
 			</div>
 			<div class="right">
 				<p>En deuxième année de mon cursus à la Haute &Eacute;cole de la Province de Liège, j’ai dû créer dans le cadre du cours de Javascript un petit jeu à l’aide de la balise canvas.</p>

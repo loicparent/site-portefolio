@@ -16,7 +16,7 @@ include( 'header.php' );
 				<figure class="pictureZone">
 					<img src="./img/dswallonie.png" alt="Ds Wallonie">
 				</figure>
-				<a href="./dswallonie/index.html" class="infoProject__link">Accéder au site</a>
+				<a href="./dswallonie/index.html" class="infoProject__link" target="_blank">Accéder au site</a>
 			</div>
 			<div class="right">
 				<p>En deuxième année de mon cursus à la Haute &Eacute;cole de la Province de Liège, j’ai participé à un coucours proposé par l’agence Ds Wallonie située à Liège (partenaire de Xérox).</p>

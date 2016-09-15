@@ -17,7 +17,7 @@ include( 'header.php' );
 				<figure class="pictureZone">
 					<img src="./img/bouvachon.gif" alt="logo et bouteille Bouvachon">
 				</figure>
-				<a href="http://loic1994.wix.com/bouvachon-olive-oil" class="infoProject__link">Accéder au site</a>
+				<a href="http://loic1994.wix.com/bouvachon-olive-oil" class="infoProject__link" target="_blank">Accéder au site</a>
 			</div>
 
 			<div class="right">

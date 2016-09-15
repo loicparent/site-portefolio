@@ -16,7 +16,7 @@ include( 'header.php' );
 				<figure class="pictureZone">
 					<img src="./img/btf.png" alt="Affiche Retour vers le futur">
 				</figure>
-				<a href="http://loic1994.wix.com/website-rvlf-2" class="infoProject__link">Accéder au site</a>
+				<a href="http://loic1994.wix.com/website-rvlf-2" class="infoProject__link" target="_blank">Accéder au site</a>
 			</div>
 			<div class="right">
 				<p>En dernière année de mon cursus à l’école secondaire de Saint-Luc à Liège, j'ai dû détourner une affiche de film en m’intégrant à la place de l’acteur présent dans celle-ci. J'ai alors choisi l'affiche de Retour vers le futur.</p>

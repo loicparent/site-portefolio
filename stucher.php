@@ -16,7 +16,7 @@ include( 'header.php' );
 				<figure class="pictureZone">
 					<img src="./img/stucher.jpg" alt="Stucher PFE">
 				</figure>
-				<a href="http://stucher.be" class="infoProject__link">Accéder au site</a>
+				<a href="http://stucher.be" class="infoProject__link" target="_blank">Accéder au site</a>
 			</div>
 			<div class="right">
 				<p>En dernière année du cursus à la Haute École de la Province de Liège, j'ai dû réaliser un Projet de fin d'étude.</p>

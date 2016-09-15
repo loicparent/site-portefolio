@@ -16,7 +16,7 @@ include( 'header.php' );
 				<figure class="pictureZone">
 					<img src="./img/bibliotheque.png" alt="Bibliothèque en ligne">
 				</figure>
-				<a href="http://loic-parent.be/bibliotheque" class="infoProject__link">Accéder au site</a>
+				<a href="http://loic-parent.be/bibliotheque" class="infoProject__link" target="_blank">Accéder au site</a>
 			</div>
 			<div class="right">
 				<p>En deuxième année de mon cursus à la Haute &Eacute;cole de la Province de Liège, on nous a demandé, dans le cadre du cours de web, de réaliser une bibliothèque en ligne.</p>

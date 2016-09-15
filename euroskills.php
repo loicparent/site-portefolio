@@ -16,7 +16,7 @@ include( 'header.php' );
 				<figure class="pictureZone">
 					<img src="./img/euroskills.png" alt="Affiche Euroskills Lisbonne 2014 compétition européenne des métiers">
 				</figure>
-				<a href="http://loic1994.wix.com/website-chocolat-1" class="infoProject__link">Accéder au site</a>
+				<a href="http://loic1994.wix.com/website-chocolat-1" class="infoProject__link" target="_blank">Accéder au site</a>
 			</div>
 			<div class="right">
 				<p>En dernière année de mon cursus à l’école secondaire de Saint-Luc à Liège, j'ai eu l’occasion de me rendre avec l’école à la compétition européenne des métiers&nbsp;: Euroskills qui se déroulait à Spa-francorchamp.</p>

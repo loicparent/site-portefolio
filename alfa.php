@@ -16,7 +16,7 @@ include( 'header.php' );
 				<figure class="pictureZone">
 					<img src="./img/alfa.png" alt="Centre Alfa">
 				</figure>
-				<a href="http://centrealfa.be" class="infoProject__link">Accéder au site</a>
+				<a href="http://centrealfa.be" class="infoProject__link" target="_blank">Accéder au site</a>
 			</div>
 			<div class="right">
 				<p>En troisième année de mon cursus à la Haute &Eacute;cole de la Province de Liège, j’ai participé à un coucours proposé par l’asbl Centre Alfa située à Liège.</p>
