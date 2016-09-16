@@ -25,10 +25,10 @@ include( 'mail.php' );
 				<a href="./CV-ParentLoïc.pdf" class="aboutMe__left--cv">Télécharger mon CV</a>
 			</div>
 			<div class="right" itemprop="about">
-				<p class="aboutMe__right--first">Je m’appelle <span>Loïc Parent</span>, je suis actuellement étudiant à la Haute &Eacute;cole de la Province de Liège en option infographie orientée Web.</p>
+				<p class="aboutMe__right--first">Je m’appelle <span>Loïc Parent</span>, je suis fraîchement diplômé en infographie orientée Web à la Haute &Eacute;cole de la Province de Liège.</p>
 				<p>J’aime concevoir des choses qui permettent d’améliorer une identité graphique tout en prenant soin de le faire avec qualité, sérieux et passion.</p>
 				<p>J’ai eu l’occasion de travailler sur divers projets graphiques liés au Web, au design graphique, à la 3D ou encore à l’impression. Cela m’a permis d’acquérir des techniques nouvelles et d’élargir ma culture artistique et graphique.</p>
-				<p class="aboutMe__right--last">&Eacute;tant encore aux études, je progresse de jour en jour en essayant de m’appliquer pour faire des sites qui soient responsives, qui respectent les standards et qui ont une identités forte tout en essayant de les garder les plus accessibles possible.</p>
+				<p class="aboutMe__right--last">Je progresse de jour en jour en essayant de m’appliquer pour faire des sites qui soient responsives, qui respectent les standards et qui ont une identités forte tout en essayant de les garder les plus accessibles possible.</p>
 			</div>
 			<div class="clear"></div>
 			<ul class="aboutMe__skills">
